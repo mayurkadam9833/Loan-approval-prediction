@@ -1,0 +1,239 @@
+{
+  "build": "py313haa95532_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "packaging",
+    "filelock",
+    "appdirs",
+    "python >=3.13,<3.14.0a0",
+    "python_abi 3.13.* *_cp313",
+    "requests >=2",
+    "click >=5.1"
+  ],
+  "extracted_package_dir": "C:\\Users\\Mayur kadam\\.conda\\pkgs\\ensureconda-1.4.7-py313haa95532_0",
+  "files": [
+    "Lib/site-packages/ensureconda-1.4.7.dist-info/INSTALLER",
+    "Lib/site-packages/ensureconda-1.4.7.dist-info/METADATA",
+    "Lib/site-packages/ensureconda-1.4.7.dist-info/RECORD",
+    "Lib/site-packages/ensureconda-1.4.7.dist-info/REQUESTED",
+    "Lib/site-packages/ensureconda-1.4.7.dist-info/WHEEL",
+    "Lib/site-packages/ensureconda-1.4.7.dist-info/direct_url.json",
+    "Lib/site-packages/ensureconda-1.4.7.dist-info/entry_points.txt",
+    "Lib/site-packages/ensureconda-1.4.7.dist-info/licenses/LICENSE-MIT",
+    "Lib/site-packages/ensureconda/__init__.py",
+    "Lib/site-packages/ensureconda/__main__.py",
+    "Lib/site-packages/ensureconda/__pycache__/__init__.cpython-313.pyc",
+    "Lib/site-packages/ensureconda/__pycache__/__main__.cpython-313.pyc",
+    "Lib/site-packages/ensureconda/__pycache__/_version.cpython-313.pyc",
+    "Lib/site-packages/ensureconda/__pycache__/api.cpython-313.pyc",
+    "Lib/site-packages/ensureconda/__pycache__/cli.cpython-313.pyc",
+    "Lib/site-packages/ensureconda/__pycache__/installer.cpython-313.pyc",
+    "Lib/site-packages/ensureconda/__pycache__/resolve.cpython-313.pyc",
+    "Lib/site-packages/ensureconda/_version.py",
+    "Lib/site-packages/ensureconda/api.py",
+    "Lib/site-packages/ensureconda/cli.py",
+    "Lib/site-packages/ensureconda/installer.py",
+    "Lib/site-packages/ensureconda/py.typed",
+    "Lib/site-packages/ensureconda/resolve.py",
+    "Scripts/ensureconda-script.py",
+    "Scripts/ensureconda.exe"
+  ],
+  "fn": "ensureconda-1.4.7-py313haa95532_0.conda",
+  "license": "MIT",
+  "link": {
+    "source": "C:\\Users\\Mayur kadam\\.conda\\pkgs\\ensureconda-1.4.7-py313haa95532_0",
+    "type": 1
+  },
+  "md5": "74f7450d53c14966ae43ae0303d19505",
+  "name": "ensureconda",
+  "package_tarball_full_path": "C:\\Users\\Mayur kadam\\.conda\\pkgs\\ensureconda-1.4.7-py313haa95532_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Lib/site-packages/ensureconda-1.4.7.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "Lib/site-packages/ensureconda-1.4.7.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "69d157d3a4bc66e3088d8be7e0c82b6dbd267eebf58b703213edd2c07443db83",
+        "sha256_in_prefix": "69d157d3a4bc66e3088d8be7e0c82b6dbd267eebf58b703213edd2c07443db83",
+        "size_in_bytes": 4238
+      },
+      {
+        "_path": "Lib/site-packages/ensureconda-1.4.7.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "2d5c3d94bc31d6f81db4d4a2975ac7bdc46ed5d0ba03894768536f025b70f76f",
+        "sha256_in_prefix": "2d5c3d94bc31d6f81db4d4a2975ac7bdc46ed5d0ba03894768536f025b70f76f",
+        "size_in_bytes": 1781
+      },
+      {
+        "_path": "Lib/site-packages/ensureconda-1.4.7.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/ensureconda-1.4.7.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "aad0b0a12256807936d52d4a6f88a1773236ae527564a688bab4e3fe780e8724",
+        "sha256_in_prefix": "aad0b0a12256807936d52d4a6f88a1773236ae527564a688bab4e3fe780e8724",
+        "size_in_bytes": 87
+      },
+      {
+        "_path": "Lib/site-packages/ensureconda-1.4.7.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "84dc368f1a83c4e0a7281aed52a30a1f1f68583c0707bf8d32196cc3e9d5b650",
+        "sha256_in_prefix": "84dc368f1a83c4e0a7281aed52a30a1f1f68583c0707bf8d32196cc3e9d5b650",
+        "size_in_bytes": 91
+      },
+      {
+        "_path": "Lib/site-packages/ensureconda-1.4.7.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "867c3ddcb9035215fc91f2a5f7071acfe5d5f248d2f16c54f1bb76440b94abd8",
+        "sha256_in_prefix": "867c3ddcb9035215fc91f2a5f7071acfe5d5f248d2f16c54f1bb76440b94abd8",
+        "size_in_bytes": 64
+      },
+      {
+        "_path": "Lib/site-packages/ensureconda-1.4.7.dist-info/licenses/LICENSE-MIT",
+        "path_type": "hardlink",
+        "sha256": "1457aa04b4c6beba326a52f8492b23aea4466cb9671eb3bb83d5f8dfe3fe8329",
+        "sha256_in_prefix": "1457aa04b4c6beba326a52f8492b23aea4466cb9671eb3bb83d5f8dfe3fe8329",
+        "size_in_bytes": 1075
+      },
+      {
+        "_path": "Lib/site-packages/ensureconda/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "3b0f4688f589e4a895380a42c3e75c24abc44802e12ca584cf57d086feb427aa",
+        "sha256_in_prefix": "3b0f4688f589e4a895380a42c3e75c24abc44802e12ca584cf57d086feb427aa",
+        "size_in_bytes": 189
+      },
+      {
+        "_path": "Lib/site-packages/ensureconda/__main__.py",
+        "path_type": "hardlink",
+        "sha256": "946f2b6de029f9e18d5dff1c13b8a21460cdf4f385e461dbb06845f994466fb7",
+        "sha256_in_prefix": "946f2b6de029f9e18d5dff1c13b8a21460cdf4f385e461dbb06845f994466fb7",
+        "size_in_bytes": 47
+      },
+      {
+        "_path": "Lib/site-packages/ensureconda/__pycache__/__init__.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "40d41111efab7a376b7356cb10524b2bace1330209808c1f1fef25bf60671c08",
+        "sha256_in_prefix": "40d41111efab7a376b7356cb10524b2bace1330209808c1f1fef25bf60671c08",
+        "size_in_bytes": 376
+      },
+      {
+        "_path": "Lib/site-packages/ensureconda/__pycache__/__main__.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "7ffe1ca1527aafdf2e83361ddc91de2f038504fa910850829b5275d57d17055b",
+        "sha256_in_prefix": "7ffe1ca1527aafdf2e83361ddc91de2f038504fa910850829b5275d57d17055b",
+        "size_in_bytes": 203
+      },
+      {
+        "_path": "Lib/site-packages/ensureconda/__pycache__/_version.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "79a62499e450ad800091afe1e850e87b44bd630e0ca30d8ab4a83617036880d1",
+        "sha256_in_prefix": "79a62499e450ad800091afe1e850e87b44bd630e0ca30d8ab4a83617036880d1",
+        "size_in_bytes": 609
+      },
+      {
+        "_path": "Lib/site-packages/ensureconda/__pycache__/api.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "5564ef0bf8774a1e5cce2830b48e3b98dd161d4f94487f3433cb12cb34e35f23",
+        "sha256_in_prefix": "5564ef0bf8774a1e5cce2830b48e3b98dd161d4f94487f3433cb12cb34e35f23",
+        "size_in_bytes": 5051
+      },
+      {
+        "_path": "Lib/site-packages/ensureconda/__pycache__/cli.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "da8a3b5b4efe4bc292a7940c572aa0a22ac4a9e91e8b19f8e269d793f7945d26",
+        "sha256_in_prefix": "da8a3b5b4efe4bc292a7940c572aa0a22ac4a9e91e8b19f8e269d793f7945d26",
+        "size_in_bytes": 3775
+      },
+      {
+        "_path": "Lib/site-packages/ensureconda/__pycache__/installer.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "31480952141419e3c1192cfa323ea3bc97f00d6e8b4f96917b03096fbdbd2a0d",
+        "sha256_in_prefix": "31480952141419e3c1192cfa323ea3bc97f00d6e8b4f96917b03096fbdbd2a0d",
+        "size_in_bytes": 10065
+      },
+      {
+        "_path": "Lib/site-packages/ensureconda/__pycache__/resolve.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "418bccda56cc8c491bdb89a531771a2f42b3f01bc01031fbdc7aeaa7b0f0b702",
+        "sha256_in_prefix": "418bccda56cc8c491bdb89a531771a2f42b3f01bc01031fbdc7aeaa7b0f0b702",
+        "size_in_bytes": 5601
+      },
+      {
+        "_path": "Lib/site-packages/ensureconda/_version.py",
+        "path_type": "hardlink",
+        "sha256": "e4965a7c2ea06df36b68e9288cdc830755a7e36b2902a5e00ef98960117d2826",
+        "sha256_in_prefix": "e4965a7c2ea06df36b68e9288cdc830755a7e36b2902a5e00ef98960117d2826",
+        "size_in_bytes": 532
+      },
+      {
+        "_path": "Lib/site-packages/ensureconda/api.py",
+        "path_type": "hardlink",
+        "sha256": "0148687ffc1b59f69d24290cbe014705e6a15811e7eef82ae3c22eb2d33f9e00",
+        "sha256_in_prefix": "0148687ffc1b59f69d24290cbe014705e6a15811e7eef82ae3c22eb2d33f9e00",
+        "size_in_bytes": 4139
+      },
+      {
+        "_path": "Lib/site-packages/ensureconda/cli.py",
+        "path_type": "hardlink",
+        "sha256": "b39c753a1ba380540e8df759b47ab592501574fe20851fe68588d82d3dc75436",
+        "sha256_in_prefix": "b39c753a1ba380540e8df759b47ab592501574fe20851fe68588d82d3dc75436",
+        "size_in_bytes": 2955
+      },
+      {
+        "_path": "Lib/site-packages/ensureconda/installer.py",
+        "path_type": "hardlink",
+        "sha256": "ce1390672ca0655c1fff82bbb7fe12b11fe5e3b7f505e7ef7523ae3d6733cad2",
+        "sha256_in_prefix": "ce1390672ca0655c1fff82bbb7fe12b11fe5e3b7f505e7ef7523ae3d6733cad2",
+        "size_in_bytes": 8321
+      },
+      {
+        "_path": "Lib/site-packages/ensureconda/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/ensureconda/resolve.py",
+        "path_type": "hardlink",
+        "sha256": "c19e9b847e055a984d7cd1e522c960105293dca137de2db38a3a0a92dc09dd57",
+        "sha256_in_prefix": "c19e9b847e055a984d7cd1e522c960105293dca137de2db38a3a0a92dc09dd57",
+        "size_in_bytes": 3176
+      },
+      {
+        "_path": "Scripts/ensureconda-script.py",
+        "path_type": "hardlink",
+        "sha256": "2a3389b95652d91f8d1f9a0e843b1b42d2ab8b9082828f4ab96c2cb828fd4b65",
+        "sha256_in_prefix": "2a3389b95652d91f8d1f9a0e843b1b42d2ab8b9082828f4ab96c2cb828fd4b65",
+        "size_in_bytes": 231
+      },
+      {
+        "_path": "Scripts/ensureconda.exe",
+        "path_type": "hardlink",
+        "sha256": "f24d102084620e54fe68d07f6e9169118b283f8d33d0c8f4b974c2e05a306059",
+        "sha256_in_prefix": "f24d102084620e54fe68d07f6e9169118b283f8d33d0c8f4b974c2e05a306059",
+        "size_in_bytes": 54032
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "ensureconda",
+  "sha256": "2bad92c71f7b475036e9c7cbac49d0446546ad63e8f63b0cbb4d7ca8548ea2b0",
+  "size": 52188,
+  "subdir": "win-64",
+  "timestamp": 1745484913000,
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/ensureconda-1.4.7-py313haa95532_0.conda",
+  "version": "1.4.7"
+}

@@ -1,0 +1,33 @@
+{
+  "build": "py313haa95532_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.13,<3.14.0a0",
+    "python_abi 3.13.* *_cp313",
+    "py-xgboost 3.0.1 py313haa95532_0"
+  ],
+  "extracted_package_dir": "C:\\Users\\Mayur kadam\\.conda\\pkgs\\xgboost-3.0.1-py313haa95532_0",
+  "files": [],
+  "fn": "xgboost-3.0.1-py313haa95532_0.conda",
+  "license": "Apache-2.0",
+  "link": {
+    "source": "C:\\Users\\Mayur kadam\\.conda\\pkgs\\xgboost-3.0.1-py313haa95532_0",
+    "type": 1
+  },
+  "md5": "4921d4c4b2ce325348847a4c6cc34480",
+  "name": "xgboost",
+  "package_tarball_full_path": "C:\\Users\\Mayur kadam\\.conda\\pkgs\\xgboost-3.0.1-py313haa95532_0.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "xgboost",
+  "sha256": "b1f3c3553d3945cf77cda24fe0fd2ce8d1be5a1fbe68b60fb49c1eec00768d8e",
+  "size": 14117,
+  "subdir": "win-64",
+  "timestamp": 1749631694000,
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/xgboost-3.0.1-py313haa95532_0.conda",
+  "version": "3.0.1"
+}

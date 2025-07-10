@@ -1,0 +1,219 @@
+{
+  "build": "py313hdf80283_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "pyyaml",
+    "python >=3.13,<3.14.0a0",
+    "python_abi 3.13.* *_cp313"
+  ],
+  "extracted_package_dir": "C:\\Users\\Mayur kadam\\.conda\\pkgs\\pyaml-25.5.0-py313hdf80283_0",
+  "files": [
+    "Lib/site-packages/pyaml-25.5.0.dist-info/INSTALLER",
+    "Lib/site-packages/pyaml-25.5.0.dist-info/METADATA",
+    "Lib/site-packages/pyaml-25.5.0.dist-info/RECORD",
+    "Lib/site-packages/pyaml-25.5.0.dist-info/REQUESTED",
+    "Lib/site-packages/pyaml-25.5.0.dist-info/WHEEL",
+    "Lib/site-packages/pyaml-25.5.0.dist-info/direct_url.json",
+    "Lib/site-packages/pyaml-25.5.0.dist-info/entry_points.txt",
+    "Lib/site-packages/pyaml-25.5.0.dist-info/licenses/COPYING",
+    "Lib/site-packages/pyaml-25.5.0.dist-info/top_level.txt",
+    "Lib/site-packages/pyaml/__init__.py",
+    "Lib/site-packages/pyaml/__main__.py",
+    "Lib/site-packages/pyaml/__pycache__/__init__.cpython-313.pyc",
+    "Lib/site-packages/pyaml/__pycache__/__main__.cpython-313.pyc",
+    "Lib/site-packages/pyaml/__pycache__/cli.cpython-313.pyc",
+    "Lib/site-packages/pyaml/cli.py",
+    "Lib/site-packages/pyaml/tests/__init__.py",
+    "Lib/site-packages/pyaml/tests/__pycache__/__init__.cpython-313.pyc",
+    "Lib/site-packages/pyaml/tests/__pycache__/test_cli.cpython-313.pyc",
+    "Lib/site-packages/pyaml/tests/__pycache__/test_dump.cpython-313.pyc",
+    "Lib/site-packages/pyaml/tests/test_cli.py",
+    "Lib/site-packages/pyaml/tests/test_dump.py",
+    "Scripts/pyaml-script.py",
+    "Scripts/pyaml.exe"
+  ],
+  "fn": "pyaml-25.5.0-py313hdf80283_0.conda",
+  "license": "WTFPL",
+  "link": {
+    "source": "C:\\Users\\Mayur kadam\\.conda\\pkgs\\pyaml-25.5.0-py313hdf80283_0",
+    "type": 1
+  },
+  "md5": "528cb06dd485f232bf3514eb27b0d038",
+  "name": "pyaml",
+  "package_tarball_full_path": "C:\\Users\\Mayur kadam\\.conda\\pkgs\\pyaml-25.5.0-py313hdf80283_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Lib/site-packages/pyaml-25.5.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "Lib/site-packages/pyaml-25.5.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "c8fff18bda70ffa1a332114da762526c707e44590ab96bc79f61e74a323217e1",
+        "sha256_in_prefix": "c8fff18bda70ffa1a332114da762526c707e44590ab96bc79f61e74a323217e1",
+        "size_in_bytes": 12918
+      },
+      {
+        "_path": "Lib/site-packages/pyaml-25.5.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "1cffad30c5b0604e5d160a1ba2d1336cea5a5939c41f39cfba6df1e32b5b7dd3",
+        "sha256_in_prefix": "1cffad30c5b0604e5d160a1ba2d1336cea5a5939c41f39cfba6df1e32b5b7dd3",
+        "size_in_bytes": 1592
+      },
+      {
+        "_path": "Lib/site-packages/pyaml-25.5.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/pyaml-25.5.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "95353a07a7887d8a224094d935cf9fc9a47a0692fa7a14f3537c466319f69fc9",
+        "sha256_in_prefix": "95353a07a7887d8a224094d935cf9fc9a47a0692fa7a14f3537c466319f69fc9",
+        "size_in_bytes": 91
+      },
+      {
+        "_path": "Lib/site-packages/pyaml-25.5.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "3e6701bad3bbde6869ba799a3808ab84c7abe050694b9901e927ca8fe2931f6c",
+        "sha256_in_prefix": "3e6701bad3bbde6869ba799a3808ab84c7abe050694b9901e927ca8fe2931f6c",
+        "size_in_bytes": 85
+      },
+      {
+        "_path": "Lib/site-packages/pyaml-25.5.0.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "920e32ebf3f3f7f30e22c7fce586277f277a17f4c63abd1b3773ec0ea8450a41",
+        "sha256_in_prefix": "920e32ebf3f3f7f30e22c7fce586277f277a17f4c63abd1b3773ec0ea8450a41",
+        "size_in_bytes": 41
+      },
+      {
+        "_path": "Lib/site-packages/pyaml-25.5.0.dist-info/licenses/COPYING",
+        "path_type": "hardlink",
+        "sha256": "dc1342cc1cb49e24c1c9e8a495acc9625ce2e04146c116279af0ab0949cd829c",
+        "sha256_in_prefix": "dc1342cc1cb49e24c1c9e8a495acc9625ce2e04146c116279af0ab0949cd829c",
+        "size_in_bytes": 491
+      },
+      {
+        "_path": "Lib/site-packages/pyaml-25.5.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "49e64c292e072e8841bb03d816eec8a4a0b2f1ac40909c0a6d6ba26e0fadefe7",
+        "sha256_in_prefix": "49e64c292e072e8841bb03d816eec8a4a0b2f1ac40909c0a6d6ba26e0fadefe7",
+        "size_in_bytes": 6
+      },
+      {
+        "_path": "Lib/site-packages/pyaml/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "4c90ef9a41cd6f762d3147f1104b664447b9ae819c0e3eb27aa19ce0250e0a5f",
+        "sha256_in_prefix": "4c90ef9a41cd6f762d3147f1104b664447b9ae819c0e3eb27aa19ce0250e0a5f",
+        "size_in_bytes": 12919
+      },
+      {
+        "_path": "Lib/site-packages/pyaml/__main__.py",
+        "path_type": "hardlink",
+        "sha256": "6dc3cd4284c40161396cee35f7e5fbc542f3ca00343a081c58b4e392f4bff52b",
+        "sha256_in_prefix": "6dc3cd4284c40161396cee35f7e5fbc542f3ca00343a081c58b4e392f4bff52b",
+        "size_in_bytes": 268
+      },
+      {
+        "_path": "Lib/site-packages/pyaml/__pycache__/__init__.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "7610ece10b5d9fc4f60dbd044554046fc50b3ffbfa9cbc90366d961ea5000659",
+        "sha256_in_prefix": "7610ece10b5d9fc4f60dbd044554046fc50b3ffbfa9cbc90366d961ea5000659",
+        "size_in_bytes": 22593
+      },
+      {
+        "_path": "Lib/site-packages/pyaml/__pycache__/__main__.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "43ba55f3d99fc24a3a8e10899f210ca98772f87c697d284be1f5a7fb76390265",
+        "sha256_in_prefix": "43ba55f3d99fc24a3a8e10899f210ca98772f87c697d284be1f5a7fb76390265",
+        "size_in_bytes": 751
+      },
+      {
+        "_path": "Lib/site-packages/pyaml/__pycache__/cli.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "1c4400eca88782bdfd33c124460675452846bb5854c2b0b5e4d1094ba35e1e9f",
+        "sha256_in_prefix": "1c4400eca88782bdfd33c124460675452846bb5854c2b0b5e4d1094ba35e1e9f",
+        "size_in_bytes": 10972
+      },
+      {
+        "_path": "Lib/site-packages/pyaml/cli.py",
+        "path_type": "hardlink",
+        "sha256": "e922fe1e4ec2044865aec289f781af16e687f8d4b5ea4b2d1a944b8e79c85ef0",
+        "sha256_in_prefix": "e922fe1e4ec2044865aec289f781af16e687f8d4b5ea4b2d1a944b8e79c85ef0",
+        "size_in_bytes": 5532
+      },
+      {
+        "_path": "Lib/site-packages/pyaml/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/pyaml/tests/__pycache__/__init__.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "6ca8e3f47f5514865c134cd7d120a1a699cdf092bc4cb22af942b3818554e6fe",
+        "sha256_in_prefix": "6ca8e3f47f5514865c134cd7d120a1a699cdf092bc4cb22af942b3818554e6fe",
+        "size_in_bytes": 138
+      },
+      {
+        "_path": "Lib/site-packages/pyaml/tests/__pycache__/test_cli.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "29c138e8ee18c1f8b181c11f0ccbe7a3143fcd563888569bff87edba3f4623b3",
+        "sha256_in_prefix": "29c138e8ee18c1f8b181c11f0ccbe7a3143fcd563888569bff87edba3f4623b3",
+        "size_in_bytes": 20170
+      },
+      {
+        "_path": "Lib/site-packages/pyaml/tests/__pycache__/test_dump.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "afc7ccbeb94a8a06bbe6ccf457346ad503494035fdc136c2e3b6b857b88d25df",
+        "sha256_in_prefix": "afc7ccbeb94a8a06bbe6ccf457346ad503494035fdc136c2e3b6b857b88d25df",
+        "size_in_bytes": 41681
+      },
+      {
+        "_path": "Lib/site-packages/pyaml/tests/test_cli.py",
+        "path_type": "hardlink",
+        "sha256": "eba5ada3605be90934938aa49412ccf816ec3a2479c8f1bd78114f7c447aab6a",
+        "sha256_in_prefix": "eba5ada3605be90934938aa49412ccf816ec3a2479c8f1bd78114f7c447aab6a",
+        "size_in_bytes": 8212
+      },
+      {
+        "_path": "Lib/site-packages/pyaml/tests/test_dump.py",
+        "path_type": "hardlink",
+        "sha256": "e0cc464ad1823f5e2af2427b77f1dc31acb4a4f8045ed2389d845ec415036877",
+        "sha256_in_prefix": "e0cc464ad1823f5e2af2427b77f1dc31acb4a4f8045ed2389d845ec415036877",
+        "size_in_bytes": 24482
+      },
+      {
+        "_path": "Scripts/pyaml-script.py",
+        "path_type": "hardlink",
+        "sha256": "f49b00863134a32be09b9cfb0cfbd336bb9424192bf5321842beeef33ef0e030",
+        "sha256_in_prefix": "f49b00863134a32be09b9cfb0cfbd336bb9424192bf5321842beeef33ef0e030",
+        "size_in_bytes": 203
+      },
+      {
+        "_path": "Scripts/pyaml.exe",
+        "path_type": "hardlink",
+        "sha256": "f24d102084620e54fe68d07f6e9169118b283f8d33d0c8f4b974c2e05a306059",
+        "sha256_in_prefix": "f24d102084620e54fe68d07f6e9169118b283f8d33d0c8f4b974c2e05a306059",
+        "size_in_bytes": 54032
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "pyaml",
+  "sha256": "a29f51f6f928a6cd537c83f784ea552413b48dc705f17b8a2b6a839dbe9db52f",
+  "size": 92455,
+  "subdir": "win-64",
+  "timestamp": 1751882385000,
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/pyaml-25.5.0-py313hdf80283_0.conda",
+  "version": "25.5.0"
+}

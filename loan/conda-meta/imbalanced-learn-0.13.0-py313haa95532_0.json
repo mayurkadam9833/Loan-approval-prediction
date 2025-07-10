@@ -1,0 +1,1948 @@
+{
+  "build": "py313haa95532_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [
+    "pandas >=1.5.3,<3",
+    "tensorflow >=2.13.1,<3",
+    "keras >=3.0.5,<4"
+  ],
+  "depends": [
+    "python >=3.13,<3.14.0a0",
+    "python_abi 3.13.* *_cp313",
+    "joblib >=1.1.1,<2",
+    "numpy >=1.24.3,<3",
+    "scikit-learn >=1.3.2,<2",
+    "scipy >=1.10.1,<2",
+    "sklearn-compat >=0.1,<1",
+    "threadpoolctl >=2.0.0,<4"
+  ],
+  "extracted_package_dir": "C:\\Users\\Mayur kadam\\.conda\\pkgs\\imbalanced-learn-0.13.0-py313haa95532_0",
+  "files": [
+    "Lib/site-packages/imbalanced_learn-0.13.0.dist-info/AUTHORS.rst",
+    "Lib/site-packages/imbalanced_learn-0.13.0.dist-info/INSTALLER",
+    "Lib/site-packages/imbalanced_learn-0.13.0.dist-info/LICENSE",
+    "Lib/site-packages/imbalanced_learn-0.13.0.dist-info/METADATA",
+    "Lib/site-packages/imbalanced_learn-0.13.0.dist-info/RECORD",
+    "Lib/site-packages/imbalanced_learn-0.13.0.dist-info/REQUESTED",
+    "Lib/site-packages/imbalanced_learn-0.13.0.dist-info/WHEEL",
+    "Lib/site-packages/imbalanced_learn-0.13.0.dist-info/direct_url.json",
+    "Lib/site-packages/imbalanced_learn-0.13.0.dist-info/top_level.txt",
+    "Lib/site-packages/imblearn/VERSION.txt",
+    "Lib/site-packages/imblearn/__init__.py",
+    "Lib/site-packages/imblearn/__pycache__/__init__.cpython-313.pyc",
+    "Lib/site-packages/imblearn/__pycache__/_version.cpython-313.pyc",
+    "Lib/site-packages/imblearn/__pycache__/base.cpython-313.pyc",
+    "Lib/site-packages/imblearn/__pycache__/exceptions.cpython-313.pyc",
+    "Lib/site-packages/imblearn/__pycache__/pipeline.cpython-313.pyc",
+    "Lib/site-packages/imblearn/_version.py",
+    "Lib/site-packages/imblearn/base.py",
+    "Lib/site-packages/imblearn/combine/__init__.py",
+    "Lib/site-packages/imblearn/combine/__pycache__/__init__.cpython-313.pyc",
+    "Lib/site-packages/imblearn/combine/__pycache__/_smote_enn.cpython-313.pyc",
+    "Lib/site-packages/imblearn/combine/__pycache__/_smote_tomek.cpython-313.pyc",
+    "Lib/site-packages/imblearn/combine/_smote_enn.py",
+    "Lib/site-packages/imblearn/combine/_smote_tomek.py",
+    "Lib/site-packages/imblearn/combine/tests/__init__.py",
+    "Lib/site-packages/imblearn/combine/tests/__pycache__/__init__.cpython-313.pyc",
+    "Lib/site-packages/imblearn/combine/tests/__pycache__/test_smote_enn.cpython-313.pyc",
+    "Lib/site-packages/imblearn/combine/tests/__pycache__/test_smote_tomek.cpython-313.pyc",
+    "Lib/site-packages/imblearn/combine/tests/test_smote_enn.py",
+    "Lib/site-packages/imblearn/combine/tests/test_smote_tomek.py",
+    "Lib/site-packages/imblearn/datasets/__init__.py",
+    "Lib/site-packages/imblearn/datasets/__pycache__/__init__.cpython-313.pyc",
+    "Lib/site-packages/imblearn/datasets/__pycache__/_imbalance.cpython-313.pyc",
+    "Lib/site-packages/imblearn/datasets/__pycache__/_zenodo.cpython-313.pyc",
+    "Lib/site-packages/imblearn/datasets/_imbalance.py",
+    "Lib/site-packages/imblearn/datasets/_zenodo.py",
+    "Lib/site-packages/imblearn/datasets/tests/__init__.py",
+    "Lib/site-packages/imblearn/datasets/tests/__pycache__/__init__.cpython-313.pyc",
+    "Lib/site-packages/imblearn/datasets/tests/__pycache__/test_imbalance.cpython-313.pyc",
+    "Lib/site-packages/imblearn/datasets/tests/__pycache__/test_zenodo.cpython-313.pyc",
+    "Lib/site-packages/imblearn/datasets/tests/test_imbalance.py",
+    "Lib/site-packages/imblearn/datasets/tests/test_zenodo.py",
+    "Lib/site-packages/imblearn/ensemble/__init__.py",
+    "Lib/site-packages/imblearn/ensemble/__pycache__/__init__.cpython-313.pyc",
+    "Lib/site-packages/imblearn/ensemble/__pycache__/_bagging.cpython-313.pyc",
+    "Lib/site-packages/imblearn/ensemble/__pycache__/_common.cpython-313.pyc",
+    "Lib/site-packages/imblearn/ensemble/__pycache__/_easy_ensemble.cpython-313.pyc",
+    "Lib/site-packages/imblearn/ensemble/__pycache__/_forest.cpython-313.pyc",
+    "Lib/site-packages/imblearn/ensemble/__pycache__/_weight_boosting.cpython-313.pyc",
+    "Lib/site-packages/imblearn/ensemble/_bagging.py",
+    "Lib/site-packages/imblearn/ensemble/_common.py",
+    "Lib/site-packages/imblearn/ensemble/_easy_ensemble.py",
+    "Lib/site-packages/imblearn/ensemble/_forest.py",
+    "Lib/site-packages/imblearn/ensemble/_weight_boosting.py",
+    "Lib/site-packages/imblearn/ensemble/tests/__init__.py",
+    "Lib/site-packages/imblearn/ensemble/tests/__pycache__/__init__.cpython-313.pyc",
+    "Lib/site-packages/imblearn/ensemble/tests/__pycache__/test_bagging.cpython-313.pyc",
+    "Lib/site-packages/imblearn/ensemble/tests/__pycache__/test_easy_ensemble.cpython-313.pyc",
+    "Lib/site-packages/imblearn/ensemble/tests/__pycache__/test_forest.cpython-313.pyc",
+    "Lib/site-packages/imblearn/ensemble/tests/__pycache__/test_weight_boosting.cpython-313.pyc",
+    "Lib/site-packages/imblearn/ensemble/tests/test_bagging.py",
+    "Lib/site-packages/imblearn/ensemble/tests/test_easy_ensemble.py",
+    "Lib/site-packages/imblearn/ensemble/tests/test_forest.py",
+    "Lib/site-packages/imblearn/ensemble/tests/test_weight_boosting.py",
+    "Lib/site-packages/imblearn/exceptions.py",
+    "Lib/site-packages/imblearn/keras/__init__.py",
+    "Lib/site-packages/imblearn/keras/__pycache__/__init__.cpython-313.pyc",
+    "Lib/site-packages/imblearn/keras/__pycache__/_generator.cpython-313.pyc",
+    "Lib/site-packages/imblearn/keras/_generator.py",
+    "Lib/site-packages/imblearn/keras/tests/__init__.py",
+    "Lib/site-packages/imblearn/keras/tests/__pycache__/__init__.cpython-313.pyc",
+    "Lib/site-packages/imblearn/keras/tests/__pycache__/test_generator.cpython-313.pyc",
+    "Lib/site-packages/imblearn/keras/tests/test_generator.py",
+    "Lib/site-packages/imblearn/metrics/__init__.py",
+    "Lib/site-packages/imblearn/metrics/__pycache__/__init__.cpython-313.pyc",
+    "Lib/site-packages/imblearn/metrics/__pycache__/_classification.cpython-313.pyc",
+    "Lib/site-packages/imblearn/metrics/__pycache__/pairwise.cpython-313.pyc",
+    "Lib/site-packages/imblearn/metrics/_classification.py",
+    "Lib/site-packages/imblearn/metrics/pairwise.py",
+    "Lib/site-packages/imblearn/metrics/tests/__init__.py",
+    "Lib/site-packages/imblearn/metrics/tests/__pycache__/__init__.cpython-313.pyc",
+    "Lib/site-packages/imblearn/metrics/tests/__pycache__/test_classification.cpython-313.pyc",
+    "Lib/site-packages/imblearn/metrics/tests/__pycache__/test_pairwise.cpython-313.pyc",
+    "Lib/site-packages/imblearn/metrics/tests/__pycache__/test_score_objects.cpython-313.pyc",
+    "Lib/site-packages/imblearn/metrics/tests/test_classification.py",
+    "Lib/site-packages/imblearn/metrics/tests/test_pairwise.py",
+    "Lib/site-packages/imblearn/metrics/tests/test_score_objects.py",
+    "Lib/site-packages/imblearn/over_sampling/__init__.py",
+    "Lib/site-packages/imblearn/over_sampling/__pycache__/__init__.cpython-313.pyc",
+    "Lib/site-packages/imblearn/over_sampling/__pycache__/_adasyn.cpython-313.pyc",
+    "Lib/site-packages/imblearn/over_sampling/__pycache__/_random_over_sampler.cpython-313.pyc",
+    "Lib/site-packages/imblearn/over_sampling/__pycache__/base.cpython-313.pyc",
+    "Lib/site-packages/imblearn/over_sampling/_adasyn.py",
+    "Lib/site-packages/imblearn/over_sampling/_random_over_sampler.py",
+    "Lib/site-packages/imblearn/over_sampling/_smote/__init__.py",
+    "Lib/site-packages/imblearn/over_sampling/_smote/__pycache__/__init__.cpython-313.pyc",
+    "Lib/site-packages/imblearn/over_sampling/_smote/__pycache__/base.cpython-313.pyc",
+    "Lib/site-packages/imblearn/over_sampling/_smote/__pycache__/cluster.cpython-313.pyc",
+    "Lib/site-packages/imblearn/over_sampling/_smote/__pycache__/filter.cpython-313.pyc",
+    "Lib/site-packages/imblearn/over_sampling/_smote/base.py",
+    "Lib/site-packages/imblearn/over_sampling/_smote/cluster.py",
+    "Lib/site-packages/imblearn/over_sampling/_smote/filter.py",
+    "Lib/site-packages/imblearn/over_sampling/_smote/tests/__init__.py",
+    "Lib/site-packages/imblearn/over_sampling/_smote/tests/__pycache__/__init__.cpython-313.pyc",
+    "Lib/site-packages/imblearn/over_sampling/_smote/tests/__pycache__/test_borderline_smote.cpython-313.pyc",
+    "Lib/site-packages/imblearn/over_sampling/_smote/tests/__pycache__/test_kmeans_smote.cpython-313.pyc",
+    "Lib/site-packages/imblearn/over_sampling/_smote/tests/__pycache__/test_smote.cpython-313.pyc",
+    "Lib/site-packages/imblearn/over_sampling/_smote/tests/__pycache__/test_smote_nc.cpython-313.pyc",
+    "Lib/site-packages/imblearn/over_sampling/_smote/tests/__pycache__/test_smoten.cpython-313.pyc",
+    "Lib/site-packages/imblearn/over_sampling/_smote/tests/__pycache__/test_svm_smote.cpython-313.pyc",
+    "Lib/site-packages/imblearn/over_sampling/_smote/tests/test_borderline_smote.py",
+    "Lib/site-packages/imblearn/over_sampling/_smote/tests/test_kmeans_smote.py",
+    "Lib/site-packages/imblearn/over_sampling/_smote/tests/test_smote.py",
+    "Lib/site-packages/imblearn/over_sampling/_smote/tests/test_smote_nc.py",
+    "Lib/site-packages/imblearn/over_sampling/_smote/tests/test_smoten.py",
+    "Lib/site-packages/imblearn/over_sampling/_smote/tests/test_svm_smote.py",
+    "Lib/site-packages/imblearn/over_sampling/base.py",
+    "Lib/site-packages/imblearn/over_sampling/tests/__init__.py",
+    "Lib/site-packages/imblearn/over_sampling/tests/__pycache__/__init__.cpython-313.pyc",
+    "Lib/site-packages/imblearn/over_sampling/tests/__pycache__/test_adasyn.cpython-313.pyc",
+    "Lib/site-packages/imblearn/over_sampling/tests/__pycache__/test_common.cpython-313.pyc",
+    "Lib/site-packages/imblearn/over_sampling/tests/__pycache__/test_random_over_sampler.cpython-313.pyc",
+    "Lib/site-packages/imblearn/over_sampling/tests/test_adasyn.py",
+    "Lib/site-packages/imblearn/over_sampling/tests/test_common.py",
+    "Lib/site-packages/imblearn/over_sampling/tests/test_random_over_sampler.py",
+    "Lib/site-packages/imblearn/pipeline.py",
+    "Lib/site-packages/imblearn/tensorflow/__init__.py",
+    "Lib/site-packages/imblearn/tensorflow/__pycache__/__init__.cpython-313.pyc",
+    "Lib/site-packages/imblearn/tensorflow/__pycache__/_generator.cpython-313.pyc",
+    "Lib/site-packages/imblearn/tensorflow/_generator.py",
+    "Lib/site-packages/imblearn/tensorflow/tests/__init__.py",
+    "Lib/site-packages/imblearn/tensorflow/tests/__pycache__/__init__.cpython-313.pyc",
+    "Lib/site-packages/imblearn/tensorflow/tests/__pycache__/test_generator.cpython-313.pyc",
+    "Lib/site-packages/imblearn/tensorflow/tests/test_generator.py",
+    "Lib/site-packages/imblearn/tests/__init__.py",
+    "Lib/site-packages/imblearn/tests/__pycache__/__init__.cpython-313.pyc",
+    "Lib/site-packages/imblearn/tests/__pycache__/test_base.cpython-313.pyc",
+    "Lib/site-packages/imblearn/tests/__pycache__/test_common.cpython-313.pyc",
+    "Lib/site-packages/imblearn/tests/__pycache__/test_docstring_parameters.cpython-313.pyc",
+    "Lib/site-packages/imblearn/tests/__pycache__/test_exceptions.cpython-313.pyc",
+    "Lib/site-packages/imblearn/tests/__pycache__/test_pipeline.cpython-313.pyc",
+    "Lib/site-packages/imblearn/tests/__pycache__/test_public_functions.cpython-313.pyc",
+    "Lib/site-packages/imblearn/tests/test_base.py",
+    "Lib/site-packages/imblearn/tests/test_common.py",
+    "Lib/site-packages/imblearn/tests/test_docstring_parameters.py",
+    "Lib/site-packages/imblearn/tests/test_exceptions.py",
+    "Lib/site-packages/imblearn/tests/test_pipeline.py",
+    "Lib/site-packages/imblearn/tests/test_public_functions.py",
+    "Lib/site-packages/imblearn/under_sampling/__init__.py",
+    "Lib/site-packages/imblearn/under_sampling/__pycache__/__init__.cpython-313.pyc",
+    "Lib/site-packages/imblearn/under_sampling/__pycache__/base.cpython-313.pyc",
+    "Lib/site-packages/imblearn/under_sampling/_prototype_generation/__init__.py",
+    "Lib/site-packages/imblearn/under_sampling/_prototype_generation/__pycache__/__init__.cpython-313.pyc",
+    "Lib/site-packages/imblearn/under_sampling/_prototype_generation/__pycache__/_cluster_centroids.cpython-313.pyc",
+    "Lib/site-packages/imblearn/under_sampling/_prototype_generation/_cluster_centroids.py",
+    "Lib/site-packages/imblearn/under_sampling/_prototype_generation/tests/__init__.py",
+    "Lib/site-packages/imblearn/under_sampling/_prototype_generation/tests/__pycache__/__init__.cpython-313.pyc",
+    "Lib/site-packages/imblearn/under_sampling/_prototype_generation/tests/__pycache__/test_cluster_centroids.cpython-313.pyc",
+    "Lib/site-packages/imblearn/under_sampling/_prototype_generation/tests/test_cluster_centroids.py",
+    "Lib/site-packages/imblearn/under_sampling/_prototype_selection/__init__.py",
+    "Lib/site-packages/imblearn/under_sampling/_prototype_selection/__pycache__/__init__.cpython-313.pyc",
+    "Lib/site-packages/imblearn/under_sampling/_prototype_selection/__pycache__/_condensed_nearest_neighbour.cpython-313.pyc",
+    "Lib/site-packages/imblearn/under_sampling/_prototype_selection/__pycache__/_edited_nearest_neighbours.cpython-313.pyc",
+    "Lib/site-packages/imblearn/under_sampling/_prototype_selection/__pycache__/_instance_hardness_threshold.cpython-313.pyc",
+    "Lib/site-packages/imblearn/under_sampling/_prototype_selection/__pycache__/_nearmiss.cpython-313.pyc",
+    "Lib/site-packages/imblearn/under_sampling/_prototype_selection/__pycache__/_neighbourhood_cleaning_rule.cpython-313.pyc",
+    "Lib/site-packages/imblearn/under_sampling/_prototype_selection/__pycache__/_one_sided_selection.cpython-313.pyc",
+    "Lib/site-packages/imblearn/under_sampling/_prototype_selection/__pycache__/_random_under_sampler.cpython-313.pyc",
+    "Lib/site-packages/imblearn/under_sampling/_prototype_selection/__pycache__/_tomek_links.cpython-313.pyc",
+    "Lib/site-packages/imblearn/under_sampling/_prototype_selection/_condensed_nearest_neighbour.py",
+    "Lib/site-packages/imblearn/under_sampling/_prototype_selection/_edited_nearest_neighbours.py",
+    "Lib/site-packages/imblearn/under_sampling/_prototype_selection/_instance_hardness_threshold.py",
+    "Lib/site-packages/imblearn/under_sampling/_prototype_selection/_nearmiss.py",
+    "Lib/site-packages/imblearn/under_sampling/_prototype_selection/_neighbourhood_cleaning_rule.py",
+    "Lib/site-packages/imblearn/under_sampling/_prototype_selection/_one_sided_selection.py",
+    "Lib/site-packages/imblearn/under_sampling/_prototype_selection/_random_under_sampler.py",
+    "Lib/site-packages/imblearn/under_sampling/_prototype_selection/_tomek_links.py",
+    "Lib/site-packages/imblearn/under_sampling/_prototype_selection/tests/__init__.py",
+    "Lib/site-packages/imblearn/under_sampling/_prototype_selection/tests/__pycache__/__init__.cpython-313.pyc",
+    "Lib/site-packages/imblearn/under_sampling/_prototype_selection/tests/__pycache__/test_allknn.cpython-313.pyc",
+    "Lib/site-packages/imblearn/under_sampling/_prototype_selection/tests/__pycache__/test_condensed_nearest_neighbour.cpython-313.pyc",
+    "Lib/site-packages/imblearn/under_sampling/_prototype_selection/tests/__pycache__/test_edited_nearest_neighbours.cpython-313.pyc",
+    "Lib/site-packages/imblearn/under_sampling/_prototype_selection/tests/__pycache__/test_instance_hardness_threshold.cpython-313.pyc",
+    "Lib/site-packages/imblearn/under_sampling/_prototype_selection/tests/__pycache__/test_nearmiss.cpython-313.pyc",
+    "Lib/site-packages/imblearn/under_sampling/_prototype_selection/tests/__pycache__/test_neighbourhood_cleaning_rule.cpython-313.pyc",
+    "Lib/site-packages/imblearn/under_sampling/_prototype_selection/tests/__pycache__/test_one_sided_selection.cpython-313.pyc",
+    "Lib/site-packages/imblearn/under_sampling/_prototype_selection/tests/__pycache__/test_random_under_sampler.cpython-313.pyc",
+    "Lib/site-packages/imblearn/under_sampling/_prototype_selection/tests/__pycache__/test_repeated_edited_nearest_neighbours.cpython-313.pyc",
+    "Lib/site-packages/imblearn/under_sampling/_prototype_selection/tests/__pycache__/test_tomek_links.cpython-313.pyc",
+    "Lib/site-packages/imblearn/under_sampling/_prototype_selection/tests/test_allknn.py",
+    "Lib/site-packages/imblearn/under_sampling/_prototype_selection/tests/test_condensed_nearest_neighbour.py",
+    "Lib/site-packages/imblearn/under_sampling/_prototype_selection/tests/test_edited_nearest_neighbours.py",
+    "Lib/site-packages/imblearn/under_sampling/_prototype_selection/tests/test_instance_hardness_threshold.py",
+    "Lib/site-packages/imblearn/under_sampling/_prototype_selection/tests/test_nearmiss.py",
+    "Lib/site-packages/imblearn/under_sampling/_prototype_selection/tests/test_neighbourhood_cleaning_rule.py",
+    "Lib/site-packages/imblearn/under_sampling/_prototype_selection/tests/test_one_sided_selection.py",
+    "Lib/site-packages/imblearn/under_sampling/_prototype_selection/tests/test_random_under_sampler.py",
+    "Lib/site-packages/imblearn/under_sampling/_prototype_selection/tests/test_repeated_edited_nearest_neighbours.py",
+    "Lib/site-packages/imblearn/under_sampling/_prototype_selection/tests/test_tomek_links.py",
+    "Lib/site-packages/imblearn/under_sampling/base.py",
+    "Lib/site-packages/imblearn/utils/__init__.py",
+    "Lib/site-packages/imblearn/utils/__pycache__/__init__.cpython-313.pyc",
+    "Lib/site-packages/imblearn/utils/__pycache__/_docstring.cpython-313.pyc",
+    "Lib/site-packages/imblearn/utils/__pycache__/_show_versions.cpython-313.pyc",
+    "Lib/site-packages/imblearn/utils/__pycache__/_sklearn_compat.cpython-313.pyc",
+    "Lib/site-packages/imblearn/utils/__pycache__/_tags.cpython-313.pyc",
+    "Lib/site-packages/imblearn/utils/__pycache__/_validation.cpython-313.pyc",
+    "Lib/site-packages/imblearn/utils/__pycache__/deprecation.cpython-313.pyc",
+    "Lib/site-packages/imblearn/utils/__pycache__/estimator_checks.cpython-313.pyc",
+    "Lib/site-packages/imblearn/utils/__pycache__/testing.cpython-313.pyc",
+    "Lib/site-packages/imblearn/utils/_docstring.py",
+    "Lib/site-packages/imblearn/utils/_show_versions.py",
+    "Lib/site-packages/imblearn/utils/_sklearn_compat.py",
+    "Lib/site-packages/imblearn/utils/_tags.py",
+    "Lib/site-packages/imblearn/utils/_test_common/__init__.py",
+    "Lib/site-packages/imblearn/utils/_test_common/__pycache__/__init__.cpython-313.pyc",
+    "Lib/site-packages/imblearn/utils/_test_common/__pycache__/instance_generator.cpython-313.pyc",
+    "Lib/site-packages/imblearn/utils/_test_common/instance_generator.py",
+    "Lib/site-packages/imblearn/utils/_validation.py",
+    "Lib/site-packages/imblearn/utils/deprecation.py",
+    "Lib/site-packages/imblearn/utils/estimator_checks.py",
+    "Lib/site-packages/imblearn/utils/testing.py",
+    "Lib/site-packages/imblearn/utils/tests/__init__.py",
+    "Lib/site-packages/imblearn/utils/tests/__pycache__/__init__.cpython-313.pyc",
+    "Lib/site-packages/imblearn/utils/tests/__pycache__/test_deprecation.cpython-313.pyc",
+    "Lib/site-packages/imblearn/utils/tests/__pycache__/test_docstring.cpython-313.pyc",
+    "Lib/site-packages/imblearn/utils/tests/__pycache__/test_estimator_checks.cpython-313.pyc",
+    "Lib/site-packages/imblearn/utils/tests/__pycache__/test_min_dependencies.cpython-313.pyc",
+    "Lib/site-packages/imblearn/utils/tests/__pycache__/test_show_versions.cpython-313.pyc",
+    "Lib/site-packages/imblearn/utils/tests/__pycache__/test_testing.cpython-313.pyc",
+    "Lib/site-packages/imblearn/utils/tests/__pycache__/test_validation.cpython-313.pyc",
+    "Lib/site-packages/imblearn/utils/tests/test_deprecation.py",
+    "Lib/site-packages/imblearn/utils/tests/test_docstring.py",
+    "Lib/site-packages/imblearn/utils/tests/test_estimator_checks.py",
+    "Lib/site-packages/imblearn/utils/tests/test_min_dependencies.py",
+    "Lib/site-packages/imblearn/utils/tests/test_show_versions.py",
+    "Lib/site-packages/imblearn/utils/tests/test_testing.py",
+    "Lib/site-packages/imblearn/utils/tests/test_validation.py"
+  ],
+  "fn": "imbalanced-learn-0.13.0-py313haa95532_0.conda",
+  "license": "MIT",
+  "link": {
+    "source": "C:\\Users\\Mayur kadam\\.conda\\pkgs\\imbalanced-learn-0.13.0-py313haa95532_0",
+    "type": 1
+  },
+  "md5": "dae1917dd64eb19819f591717a471f57",
+  "name": "imbalanced-learn",
+  "package_tarball_full_path": "C:\\Users\\Mayur kadam\\.conda\\pkgs\\imbalanced-learn-0.13.0-py313haa95532_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Lib/site-packages/imbalanced_learn-0.13.0.dist-info/AUTHORS.rst",
+        "path_type": "hardlink",
+        "sha256": "a5d0aebca6a718a3e3027eb7581c2774d1bf94503f58e73b296b696117036951",
+        "sha256_in_prefix": "a5d0aebca6a718a3e3027eb7581c2774d1bf94503f58e73b296b696117036951",
+        "size_in_bytes": 563
+      },
+      {
+        "_path": "Lib/site-packages/imbalanced_learn-0.13.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "Lib/site-packages/imbalanced_learn-0.13.0.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "fbcab88e3daf0f2f9248f5a774e97915b7a1a36da76a78c6a5baaa07095ef644",
+        "sha256_in_prefix": "fbcab88e3daf0f2f9248f5a774e97915b7a1a36da76a78c6a5baaa07095ef644",
+        "size_in_bytes": 1125
+      },
+      {
+        "_path": "Lib/site-packages/imbalanced_learn-0.13.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "762a723195ad3bcc245ce5f1b236b0ac582fc4b838fddf0704500c88630f37a9",
+        "sha256_in_prefix": "762a723195ad3bcc245ce5f1b236b0ac582fc4b838fddf0704500c88630f37a9",
+        "size_in_bytes": 9058
+      },
+      {
+        "_path": "Lib/site-packages/imbalanced_learn-0.13.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "4b9326680db72514af9f91955c7c3fd5821f4e4243e3c827c1c9115ce00446a1",
+        "sha256_in_prefix": "4b9326680db72514af9f91955c7c3fd5821f4e4243e3c827c1c9115ce00446a1",
+        "size_in_bytes": 20715
+      },
+      {
+        "_path": "Lib/site-packages/imbalanced_learn-0.13.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/imbalanced_learn-0.13.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "227f454cdc5e3fad0a9d3906c3bc24ea624f61dfdd4128c46665dd05d30223ef",
+        "sha256_in_prefix": "227f454cdc5e3fad0a9d3906c3bc24ea624f61dfdd4128c46665dd05d30223ef",
+        "size_in_bytes": 91
+      },
+      {
+        "_path": "Lib/site-packages/imbalanced_learn-0.13.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "e6b4032b411e78b847f913c25f5001cb1234507410747bcfa95bfac0b6845edb",
+        "sha256_in_prefix": "e6b4032b411e78b847f913c25f5001cb1234507410747bcfa95bfac0b6845edb",
+        "size_in_bytes": 96
+      },
+      {
+        "_path": "Lib/site-packages/imbalanced_learn-0.13.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "82859210c64b8858e797c3be47c6560fe16660096606f8d5dcaac12f73048e7b",
+        "sha256_in_prefix": "82859210c64b8858e797c3be47c6560fe16660096606f8d5dcaac12f73048e7b",
+        "size_in_bytes": 9
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/VERSION.txt",
+        "path_type": "hardlink",
+        "sha256": "d84c9e596c7d6a94e5f74579ef8d8912a807b0d28582474900ad35dfb3edfcf4",
+        "sha256_in_prefix": "d84c9e596c7d6a94e5f74579ef8d8912a807b0d28582474900ad35dfb3edfcf4",
+        "size_in_bytes": 7
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "c90d105c73353dd7d1ffbf1e1a6e980584d15c93a59fc97985de6d35f5921141",
+        "sha256_in_prefix": "c90d105c73353dd7d1ffbf1e1a6e980584d15c93a59fc97985de6d35f5921141",
+        "size_in_bytes": 3963
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/__pycache__/__init__.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "d8c21ff1407326780af4003524e14682d6cac2dcc1db7272bed4166cb279a6ce",
+        "sha256_in_prefix": "d8c21ff1407326780af4003524e14682d6cac2dcc1db7272bed4166cb279a6ce",
+        "size_in_bytes": 3911
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/__pycache__/_version.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "db08e3137965a7460fed0e02209ce402bb5cef72dcd4e1a881eb25d38d2fde45",
+        "sha256_in_prefix": "db08e3137965a7460fed0e02209ce402bb5cef72dcd4e1a881eb25d38d2fde45",
+        "size_in_bytes": 623
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/__pycache__/base.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "5cca15f9932ea5dc20f21861f9eb0d0418b912f1127621ad51931e42b6305e1d",
+        "sha256_in_prefix": "5cca15f9932ea5dc20f21861f9eb0d0418b912f1127621ad51931e42b6305e1d",
+        "size_in_bytes": 14491
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/__pycache__/exceptions.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "070ba2517157750ff4ceef087e270c1ec8ca37edfa2b465d46ea97c84c6199e2",
+        "sha256_in_prefix": "070ba2517157750ff4ceef087e270c1ec8ca37edfa2b465d46ea97c84c6199e2",
+        "size_in_bytes": 914
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/__pycache__/pipeline.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "0212dfef8498378f522271604d6057c9d9e6d0b0dc012ea29220e3c87a14c9a6",
+        "sha256_in_prefix": "0212dfef8498378f522271604d6057c9d9e6d0b0dc012ea29220e3c87a14c9a6",
+        "size_in_bytes": 54329
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/_version.py",
+        "path_type": "hardlink",
+        "sha256": "8b4cebac9038dd0ca1a931d25d081112ce5257b8ce1559f75d24fa7b0f472749",
+        "sha256_in_prefix": "8b4cebac9038dd0ca1a931d25d081112ce5257b8ce1559f75d24fa7b0f472749",
+        "size_in_bytes": 719
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/base.py",
+        "path_type": "hardlink",
+        "sha256": "47d4c658dc84800acf9d75cd1a56303541843a8b38e072e377799b00847848c4",
+        "sha256_in_prefix": "47d4c658dc84800acf9d75cd1a56303541843a8b38e072e377799b00847848c4",
+        "size_in_bytes": 13491
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/combine/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "a7fde54803a3ab28428234d8a15786af91599488e7b4dac0d2d70f70e4445b8b",
+        "sha256_in_prefix": "a7fde54803a3ab28428234d8a15786af91599488e7b4dac0d2d70f70e4445b8b",
+        "size_in_bytes": 209
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/combine/__pycache__/__init__.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "be3d55dbc0d7afeabc5f651988a5c6cd065068912ea3499f58be624c705232eb",
+        "sha256_in_prefix": "be3d55dbc0d7afeabc5f651988a5c6cd065068912ea3499f58be624c705232eb",
+        "size_in_bytes": 389
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/combine/__pycache__/_smote_enn.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "a47dfbe42666a9e9f50d4e84bd96abfacebe775fb092e7e1df012697a4aff671",
+        "sha256_in_prefix": "a47dfbe42666a9e9f50d4e84bd96abfacebe775fb092e7e1df012697a4aff671",
+        "size_in_bytes": 5650
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/combine/__pycache__/_smote_tomek.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "7c7e89a618685932658c86409d38933bdcf1cec6260601a73a6e1ab1a438aafa",
+        "sha256_in_prefix": "7c7e89a618685932658c86409d38933bdcf1cec6260601a73a6e1ab1a438aafa",
+        "size_in_bytes": 5572
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/combine/_smote_enn.py",
+        "path_type": "hardlink",
+        "sha256": "2f624c3811f1299336eb0bb66015868a73175baecdc03af7a017365b173a0f0c",
+        "sha256_in_prefix": "2f624c3811f1299336eb0bb66015868a73175baecdc03af7a017365b173a0f0c",
+        "size_in_bytes": 5054
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/combine/_smote_tomek.py",
+        "path_type": "hardlink",
+        "sha256": "13443c2ccf75996f244cf24896d1d2552343e258c0f9ac91c4e3c4151a88cd5e",
+        "sha256_in_prefix": "13443c2ccf75996f244cf24896d1d2552343e258c0f9ac91c4e3c4151a88cd5e",
+        "size_in_bytes": 4912
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/combine/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/combine/tests/__pycache__/__init__.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "21c57c2815ebacc6998bfb3943d1f433191d439765311ac6dd62fa48fcc2e1ec",
+        "sha256_in_prefix": "21c57c2815ebacc6998bfb3943d1f433191d439765311ac6dd62fa48fcc2e1ec",
+        "size_in_bytes": 149
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/combine/tests/__pycache__/test_smote_enn.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "abd91a46610c19baae48c491cc5ee0bf6ffa57c26a6ed68b07e6c5f7ce00325a",
+        "sha256_in_prefix": "abd91a46610c19baae48c491cc5ee0bf6ffa57c26a6ed68b07e6c5f7ce00325a",
+        "size_in_bytes": 5582
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/combine/tests/__pycache__/test_smote_tomek.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "2d0692f4b04c0c7a1d15133aee8da61536aaebb4ad2b321fa653373565c5ccab",
+        "sha256_in_prefix": "2d0692f4b04c0c7a1d15133aee8da61536aaebb4ad2b321fa653373565c5ccab",
+        "size_in_bytes": 5659
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/combine/tests/test_smote_enn.py",
+        "path_type": "hardlink",
+        "sha256": "d51f1d14070bb91781eedadf38d1b6c6bab99b86b0bd42ca81786b2d65575cf7",
+        "sha256_in_prefix": "d51f1d14070bb91781eedadf38d1b6c6bab99b86b0bd42ca81786b2d65575cf7",
+        "size_in_bytes": 4729
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/combine/tests/test_smote_tomek.py",
+        "path_type": "hardlink",
+        "sha256": "969fabbe27a923052b35fcd971bf84ad5fc7b56628bb60c00bf0257347e6806d",
+        "sha256_in_prefix": "969fabbe27a923052b35fcd971bf84ad5fc7b56628bb60c00bf0257347e6806d",
+        "size_in_bytes": 5505
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/datasets/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "5187779c350330e2951bed7fd1e1844126df7957bbca5d9c497cfe30e59e8097",
+        "sha256_in_prefix": "5187779c350330e2951bed7fd1e1844126df7957bbca5d9c497cfe30e59e8097",
+        "size_in_bytes": 207
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/datasets/__pycache__/__init__.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "53b76cbfac3ecba7d6e052454468467c46a42fd7b46c588aa8cc64afb14045c9",
+        "sha256_in_prefix": "53b76cbfac3ecba7d6e052454468467c46a42fd7b46c588aa8cc64afb14045c9",
+        "size_in_bytes": 379
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/datasets/__pycache__/_imbalance.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "850f75ffbefde4dc49854335c5f5bb5cf276945a50e6373ad604a51619607b34",
+        "sha256_in_prefix": "850f75ffbefde4dc49854335c5f5bb5cf276945a50e6373ad604a51619607b34",
+        "size_in_bytes": 4025
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/datasets/__pycache__/_zenodo.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "9d85bca75e541dbe15bac39f2d4e9f052be2beb42ce821cbdee974848e1853a5",
+        "sha256_in_prefix": "9d85bca75e541dbe15bac39f2d4e9f052be2beb42ce821cbdee974848e1853a5",
+        "size_in_bytes": 12977
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/datasets/_imbalance.py",
+        "path_type": "hardlink",
+        "sha256": "e18188eacbabaf8c837d33a66643937b089857dd7c2c2a1010ad6d5bfade0aa1",
+        "sha256_in_prefix": "e18188eacbabaf8c837d33a66643937b089857dd7c2c2a1010ad6d5bfade0aa1",
+        "size_in_bytes": 4118
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/datasets/_zenodo.py",
+        "path_type": "hardlink",
+        "sha256": "8afbea28a322199eea97b0139fa7fbc1ec1c39f049ee9816f9dc6dc5fd09b181",
+        "sha256_in_prefix": "8afbea28a322199eea97b0139fa7fbc1ec1c39f049ee9816f9dc6dc5fd09b181",
+        "size_in_bytes": 13164
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/datasets/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/datasets/tests/__pycache__/__init__.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "43aff1a9b0355f038a621f7498b18d140d91614f21448f7b043e7c7ce5f3a83c",
+        "sha256_in_prefix": "43aff1a9b0355f038a621f7498b18d140d91614f21448f7b043e7c7ce5f3a83c",
+        "size_in_bytes": 150
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/datasets/tests/__pycache__/test_imbalance.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "002b2a3e2d5b4463fd0534958c36cec052feb4a60fa4355f1025e156567f13d7",
+        "sha256_in_prefix": "002b2a3e2d5b4463fd0534958c36cec052feb4a60fa4355f1025e156567f13d7",
+        "size_in_bytes": 3649
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/datasets/tests/__pycache__/test_zenodo.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "dcdccfe6950e578a99dcc2b88948643a4ee1480a0cacf49d56f451480740453c",
+        "sha256_in_prefix": "dcdccfe6950e578a99dcc2b88948643a4ee1480a0cacf49d56f451480740453c",
+        "size_in_bytes": 4384
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/datasets/tests/test_imbalance.py",
+        "path_type": "hardlink",
+        "sha256": "1256c3abba6e2642c04a2dc9af6d517f6b8f04f9370dead288fb1d4894f83e73",
+        "sha256_in_prefix": "1256c3abba6e2642c04a2dc9af6d517f6b8f04f9370dead288fb1d4894f83e73",
+        "size_in_bytes": 2518
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/datasets/tests/test_zenodo.py",
+        "path_type": "hardlink",
+        "sha256": "695571680754c65058496a6d818aa987d243a24c73489b0b1fd8066731071421",
+        "sha256_in_prefix": "695571680754c65058496a6d818aa987d243a24c73489b0b1fd8066731071421",
+        "size_in_bytes": 2773
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/ensemble/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "8cd5250a433a0895505d9d039f3e0726d4654f749e13c532d1e43a2af7fd007f",
+        "sha256_in_prefix": "8cd5250a433a0895505d9d039f3e0726d4654f749e13c532d1e43a2af7fd007f",
+        "size_in_bytes": 465
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/ensemble/__pycache__/__init__.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "9647b87de7888eac96aff694f35b075572436025b2661afd36af2fa3d856a0c6",
+        "sha256_in_prefix": "9647b87de7888eac96aff694f35b075572436025b2661afd36af2fa3d856a0c6",
+        "size_in_bytes": 573
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/ensemble/__pycache__/_bagging.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "8e7dc9ca87dd24db289727bb1c434dd42c57320c32ddd425695b39bfd85e6cc4",
+        "sha256_in_prefix": "8e7dc9ca87dd24db289727bb1c434dd42c57320c32ddd425695b39bfd85e6cc4",
+        "size_in_bytes": 13722
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/ensemble/__pycache__/_common.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "d2717eb353b4ab21d9949e32d54570ad0f22164f54cd257520b8e20e5fd5e46a",
+        "sha256_in_prefix": "d2717eb353b4ab21d9949e32d54570ad0f22164f54cd257520b8e20e5fd5e46a",
+        "size_in_bytes": 3480
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/ensemble/__pycache__/_easy_ensemble.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "ae1982989573f38541138ee57c7e8badff3c14559defc491affcbf619633183e",
+        "sha256_in_prefix": "ae1982989573f38541138ee57c7e8badff3c14559defc491affcbf619633183e",
+        "size_in_bytes": 13198
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/ensemble/__pycache__/_forest.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "b20b90aea8f66c5206253169007de429e41056426cf4743001dacea41ce3a7b2",
+        "sha256_in_prefix": "b20b90aea8f66c5206253169007de429e41056426cf4743001dacea41ce3a7b2",
+        "size_in_bytes": 30945
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/ensemble/__pycache__/_weight_boosting.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "ce22dc62c37290c0f478406f6dddf3e4a46677ef9540c81d70d6c7f0c027500f",
+        "sha256_in_prefix": "ce22dc62c37290c0f478406f6dddf3e4a46677ef9540c81d70d6c7f0c027500f",
+        "size_in_bytes": 15185
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/ensemble/_bagging.py",
+        "path_type": "hardlink",
+        "sha256": "03ebd04a8237ad03a121388dea6e0cab68d21ce6f90eb1b51057649ae274e93c",
+        "sha256_in_prefix": "03ebd04a8237ad03a121388dea6e0cab68d21ce6f90eb1b51057649ae274e93c",
+        "size_in_bytes": 13421
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/ensemble/_common.py",
+        "path_type": "hardlink",
+        "sha256": "46733b51d1947d7655a18d761c2450d176efd0ce97eeef9160eac274f971d711",
+        "sha256_in_prefix": "46733b51d1947d7655a18d761c2450d176efd0ce97eeef9160eac274f971d711",
+        "size_in_bytes": 3503
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/ensemble/_easy_ensemble.py",
+        "path_type": "hardlink",
+        "sha256": "24aff40cb8a771c7d8adf4d9280e029833df3912a505f9fb3a7f272565f525e5",
+        "sha256_in_prefix": "24aff40cb8a771c7d8adf4d9280e029833df3912a505f9fb3a7f272565f525e5",
+        "size_in_bytes": 11865
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/ensemble/_forest.py",
+        "path_type": "hardlink",
+        "sha256": "47d525c70ede88109d1dcbf3a231bca507f7766ae6b1f41b28dd37070dcfc17a",
+        "sha256_in_prefix": "47d525c70ede88109d1dcbf3a231bca507f7766ae6b1f41b28dd37070dcfc17a",
+        "size_in_bytes": 33224
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/ensemble/_weight_boosting.py",
+        "path_type": "hardlink",
+        "sha256": "89d396ff54a32d4ad774041755101589956fa58d97677075bfc10d57ea669643",
+        "sha256_in_prefix": "89d396ff54a32d4ad774041755101589956fa58d97677075bfc10d57ea669643",
+        "size_in_bytes": 15158
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/ensemble/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/ensemble/tests/__pycache__/__init__.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "a2b716cfcce12975e91448f6b79bfe9ff0d994b60f9f218ab13169ce2311a28f",
+        "sha256_in_prefix": "a2b716cfcce12975e91448f6b79bfe9ff0d994b60f9f218ab13169ce2311a28f",
+        "size_in_bytes": 150
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/ensemble/tests/__pycache__/test_bagging.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "e45dd2fd146e01c7c558a7a2cbf7c5520d1466f5fef19397b7f82c3d5386d2ad",
+        "sha256_in_prefix": "e45dd2fd146e01c7c558a7a2cbf7c5520d1466f5fef19397b7f82c3d5386d2ad",
+        "size_in_bytes": 21614
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/ensemble/tests/__pycache__/test_easy_ensemble.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "f28db4dc125d9d5ddbb8d2dec0f68eef5576be1190757a082a1337b3bd04e5c2",
+        "sha256_in_prefix": "f28db4dc125d9d5ddbb8d2dec0f68eef5576be1190757a082a1337b3bd04e5c2",
+        "size_in_bytes": 8981
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/ensemble/tests/__pycache__/test_forest.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "0cf01923878a15e0b679e6293b27b3d2828a890a6588939c9740be9df41177d8",
+        "sha256_in_prefix": "0cf01923878a15e0b679e6293b27b3d2828a890a6588939c9740be9df41177d8",
+        "size_in_bytes": 12518
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/ensemble/tests/__pycache__/test_weight_boosting.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "724dc2f25802c84b4e8f3d66561392dfd67d6fd1efa84f935900e90d4b68b9a5",
+        "sha256_in_prefix": "724dc2f25802c84b4e8f3d66561392dfd67d6fd1efa84f935900e90d4b68b9a5",
+        "size_in_bytes": 4790
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/ensemble/tests/test_bagging.py",
+        "path_type": "hardlink",
+        "sha256": "023a3be52a68443092675a3aa5cecbf88aae9b4e7e631698f4fdc812e02c05b3",
+        "sha256_in_prefix": "023a3be52a68443092675a3aa5cecbf88aae9b4e7e631698f4fdc812e02c05b3",
+        "size_in_bytes": 18756
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/ensemble/tests/test_easy_ensemble.py",
+        "path_type": "hardlink",
+        "sha256": "6ba347f0659f185737274660a5754aee614c88e626eb998f98df5483b2889001",
+        "sha256_in_prefix": "6ba347f0659f185737274660a5754aee614c88e626eb998f98df5483b2889001",
+        "size_in_bytes": 7033
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/ensemble/tests/test_forest.py",
+        "path_type": "hardlink",
+        "sha256": "9614c7163b7c659ebbd9405645b84c79b432b02edfd0119a43707179ed95aca4",
+        "sha256_in_prefix": "9614c7163b7c659ebbd9405645b84c79b432b02edfd0119a43707179ed95aca4",
+        "size_in_bytes": 10041
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/ensemble/tests/test_weight_boosting.py",
+        "path_type": "hardlink",
+        "sha256": "21f24fd51706c92d7606f4fbb622ba5a06671ffcadc917e09a5db973603acc59",
+        "sha256_in_prefix": "21f24fd51706c92d7606f4fbb622ba5a06671ffcadc917e09a5db973603acc59",
+        "size_in_bytes": 3195
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/exceptions.py",
+        "path_type": "hardlink",
+        "sha256": "7ea1d576481bab5dc9e1c6cbf171104abc5eb847cf369ff3bad47721ea452b52",
+        "sha256_in_prefix": "7ea1d576481bab5dc9e1c6cbf171104abc5eb847cf369ff3bad47721ea452b52",
+        "size_in_bytes": 785
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/keras/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "d4a36a7bf8878198d0f6771cf7a25a93b265f077373f929434991ee0fed97844",
+        "sha256_in_prefix": "d4a36a7bf8878198d0f6771cf7a25a93b265f077373f929434991ee0fed97844",
+        "size_in_bytes": 233
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/keras/__pycache__/__init__.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "73398233cb2aa5ade137d01ace2aa10b8e9af9205af724b511233fcc9be1c41d",
+        "sha256_in_prefix": "73398233cb2aa5ade137d01ace2aa10b8e9af9205af724b511233fcc9be1c41d",
+        "size_in_bytes": 383
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/keras/__pycache__/_generator.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "14f8056ef47caddb05902f50d951ff32e8894c125c2fbf3bd1ab46ec29a3d926",
+        "sha256_in_prefix": "14f8056ef47caddb05902f50d951ff32e8894c125c2fbf3bd1ab46ec29a3d926",
+        "size_in_bytes": 10844
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/keras/_generator.py",
+        "path_type": "hardlink",
+        "sha256": "6e00c8b274d3742991a045ddfab8d54d30630c1fc8d757c7ea332e5e2f93ba86",
+        "sha256_in_prefix": "6e00c8b274d3742991a045ddfab8d54d30630c1fc8d757c7ea332e5e2f93ba86",
+        "size_in_bytes": 10276
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/keras/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/keras/tests/__pycache__/__init__.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "3c297e8321201fdeff6b7decf6197f2dba321f56f112bde1a8f853c0048ccb4f",
+        "sha256_in_prefix": "3c297e8321201fdeff6b7decf6197f2dba321f56f112bde1a8f853c0048ccb4f",
+        "size_in_bytes": 147
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/keras/tests/__pycache__/test_generator.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "0a9c3ceb79b474d09c0178227c1b7a084bd829158ba2fc7b4b17fc7bcabad2cb",
+        "sha256_in_prefix": "0a9c3ceb79b474d09c0178227c1b7a084bd829158ba2fc7b4b17fc7bcabad2cb",
+        "size_in_bytes": 6005
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/keras/tests/test_generator.py",
+        "path_type": "hardlink",
+        "sha256": "1d663d74713370404bfa4b2fffa8813bb7f5ce7574ad266286ba0eddefb2580e",
+        "sha256_in_prefix": "1d663d74713370404bfa4b2fffa8813bb7f5ce7574ad266286ba0eddefb2580e",
+        "size_in_bytes": 4205
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/metrics/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "84434ff661d43213e58038bee4f3bc0cd9fa927f85c0662b920047f48880d833",
+        "sha256_in_prefix": "84434ff661d43213e58038bee4f3bc0cd9fa927f85c0662b920047f48880d833",
+        "size_in_bytes": 642
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/metrics/__pycache__/__init__.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "f68949afd8cb7dcaa24027523669944cb86daa3b732bbc62a804b527afd20c32",
+        "sha256_in_prefix": "f68949afd8cb7dcaa24027523669944cb86daa3b732bbc62a804b527afd20c32",
+        "size_in_bytes": 654
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/metrics/__pycache__/_classification.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "8012d2f14510cee4019a3be53b0112485fb68474a92997f3e4b73a56d4906d48",
+        "sha256_in_prefix": "8012d2f14510cee4019a3be53b0112485fb68474a92997f3e4b73a56d4906d48",
+        "size_in_bytes": 36974
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/metrics/__pycache__/pairwise.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "0595a62cc42b074635f5e766a881326ae4eab2e1358e232fdb98d3da2616047b",
+        "sha256_in_prefix": "0595a62cc42b074635f5e766a881326ae4eab2e1358e232fdb98d3da2616047b",
+        "size_in_bytes": 9961
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/metrics/_classification.py",
+        "path_type": "hardlink",
+        "sha256": "3eec0e813124326099cea5e4a23a2b565d3ed5bdb7603ea9de214f8544fb230a",
+        "sha256_in_prefix": "3eec0e813124326099cea5e4a23a2b565d3ed5bdb7603ea9de214f8544fb230a",
+        "size_in_bytes": 39997
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/metrics/pairwise.py",
+        "path_type": "hardlink",
+        "sha256": "5ec7953188a2e7def0e204bb0b50d6ddb1ce960637e67db210cd120decc4a682",
+        "sha256_in_prefix": "5ec7953188a2e7def0e204bb0b50d6ddb1ce960637e67db210cd120decc4a682",
+        "size_in_bytes": 8937
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/metrics/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/metrics/tests/__pycache__/__init__.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "7feccdc87a56690d41df750b3eeef4dbab924203191be56b8ff1cda2616b8fa0",
+        "sha256_in_prefix": "7feccdc87a56690d41df750b3eeef4dbab924203191be56b8ff1cda2616b8fa0",
+        "size_in_bytes": 149
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/metrics/tests/__pycache__/test_classification.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "acc9fe10059f7cefa3f6c91fb5b25f1c0a8db12110326850d2cbdddcdf2646f8",
+        "sha256_in_prefix": "acc9fe10059f7cefa3f6c91fb5b25f1c0a8db12110326850d2cbdddcdf2646f8",
+        "size_in_bytes": 20315
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/metrics/tests/__pycache__/test_pairwise.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "fe68f31b1fe49ff603833fd693530c324fe1f48c2ad1f63d41558af876e314f6",
+        "sha256_in_prefix": "fe68f31b1fe49ff603833fd693530c324fe1f48c2ad1f63d41558af876e314f6",
+        "size_in_bytes": 8959
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/metrics/tests/__pycache__/test_score_objects.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "06c5229abfad1e6b4f29f01566bda2e04cecb90f9bc276fc9bfa4b17f6e8df60",
+        "sha256_in_prefix": "06c5229abfad1e6b4f29f01566bda2e04cecb90f9bc276fc9bfa4b17f6e8df60",
+        "size_in_bytes": 2669
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/metrics/tests/test_classification.py",
+        "path_type": "hardlink",
+        "sha256": "c4945bb8323be278a43c4a775d290dd71c1edf38bc246a0fc2e7feae3fd5c93d",
+        "sha256_in_prefix": "c4945bb8323be278a43c4a775d290dd71c1edf38bc246a0fc2e7feae3fd5c93d",
+        "size_in_bytes": 17848
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/metrics/tests/test_pairwise.py",
+        "path_type": "hardlink",
+        "sha256": "ff9bf92a1a900a063bd759a94159cf1f83b57759c87036087ab255f53c092cc5",
+        "sha256_in_prefix": "ff9bf92a1a900a063bd759a94159cf1f83b57759c87036087ab255f53c092cc5",
+        "size_in_bytes": 6395
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/metrics/tests/test_score_objects.py",
+        "path_type": "hardlink",
+        "sha256": "d479cd2be1592b2425bb955b5d515ff78e19b81cab49e044c2c3424f225e1292",
+        "sha256_in_prefix": "d479cd2be1592b2425bb955b5d515ff78e19b81cab49e044c2c3424f225e1292",
+        "size_in_bytes": 2091
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/over_sampling/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "dce9414d51e2b6b1a196c28e97533fddf493c52ef7bb57fa270dddb3a579a176",
+        "sha256_in_prefix": "dce9414d51e2b6b1a196c28e97533fddf493c52ef7bb57fa270dddb3a579a176",
+        "size_in_bytes": 411
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/over_sampling/__pycache__/__init__.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "d7ea6ab7d7af166482f960dfff993cf73823374243d81b60a33c41943d89b625",
+        "sha256_in_prefix": "d7ea6ab7d7af166482f960dfff993cf73823374243d81b60a33c41943d89b625",
+        "size_in_bytes": 569
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/over_sampling/__pycache__/_adasyn.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "c9438a0985b21df8cf27c0f24403c1cf49d8ec560aaa0b362c08c93cc4116eb9",
+        "sha256_in_prefix": "c9438a0985b21df8cf27c0f24403c1cf49d8ec560aaa0b362c08c93cc4116eb9",
+        "size_in_bytes": 8776
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/over_sampling/__pycache__/_random_over_sampler.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "6e069586b1aa781ec4d21f2245ac8cafa63f0586905db211b1b677d8589a3660",
+        "sha256_in_prefix": "6e069586b1aa781ec4d21f2245ac8cafa63f0586905db211b1b677d8589a3660",
+        "size_in_bytes": 10650
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/over_sampling/__pycache__/base.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "bf51929b2e94aa97eea1e12c898fbd1bf1563e2e50547bddb9a0cda84f86ebb3",
+        "sha256_in_prefix": "bf51929b2e94aa97eea1e12c898fbd1bf1563e2e50547bddb9a0cda84f86ebb3",
+        "size_in_bytes": 2909
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/over_sampling/_adasyn.py",
+        "path_type": "hardlink",
+        "sha256": "b49a95dd91694a6ff3899cdade2d5d0923eddd4bd2e33a2c519660d057931af9",
+        "sha256_in_prefix": "b49a95dd91694a6ff3899cdade2d5d0923eddd4bd2e33a2c519660d057931af9",
+        "size_in_bytes": 7818
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/over_sampling/_random_over_sampler.py",
+        "path_type": "hardlink",
+        "sha256": "97a223af90cd12c9137453abcf7ffdf80edacf419c9ab8c445050de9abccc48d",
+        "sha256_in_prefix": "97a223af90cd12c9137453abcf7ffdf80edacf419c9ab8c445050de9abccc48d",
+        "size_in_bytes": 9807
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/over_sampling/_smote/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "aea2e52522557410166c43f0f141407813a2622ab386cab56fabad5e46f7ac81",
+        "sha256_in_prefix": "aea2e52522557410166c43f0f141407813a2622ab386cab56fabad5e46f7ac81",
+        "size_in_bytes": 235
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/over_sampling/_smote/__pycache__/__init__.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "c9c40e852c5ecb1a5c5f940e8ac1b2520ec681b2fc47d7e5a97a7aaf19c8bad8",
+        "sha256_in_prefix": "c9c40e852c5ecb1a5c5f940e8ac1b2520ec681b2fc47d7e5a97a7aaf19c8bad8",
+        "size_in_bytes": 397
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/over_sampling/_smote/__pycache__/base.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "315655ddc6ca736c9ed719ae5bbeb4dd0ad206ddfd176305ae05f44cdf5467d7",
+        "sha256_in_prefix": "315655ddc6ca736c9ed719ae5bbeb4dd0ad206ddfd176305ae05f44cdf5467d7",
+        "size_in_bytes": 38322
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/over_sampling/_smote/__pycache__/cluster.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "8d7327a0e9144f29b811135ccb5f6e88a5f200abe392cef2b99ba94137d17250",
+        "sha256_in_prefix": "8d7327a0e9144f29b811135ccb5f6e88a5f200abe392cef2b99ba94137d17250",
+        "size_in_bytes": 11529
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/over_sampling/_smote/__pycache__/filter.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "3bba214683ca71afb35dc562723fbf7395ecefed0e21f309ecc9195b7815c039",
+        "sha256_in_prefix": "3bba214683ca71afb35dc562723fbf7395ecefed0e21f309ecc9195b7815c039",
+        "size_in_bytes": 18869
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/over_sampling/_smote/base.py",
+        "path_type": "hardlink",
+        "sha256": "74dfee28148c21b87616824b9298d78dba45ec50d58c23423c21846da0b4b05a",
+        "sha256_in_prefix": "74dfee28148c21b87616824b9298d78dba45ec50d58c23423c21846da0b4b05a",
+        "size_in_bytes": 36718
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/over_sampling/_smote/cluster.py",
+        "path_type": "hardlink",
+        "sha256": "f19c2b76983d11aae16ae6a6989849e5d4a15d1061572f7f6bf535c479a6a9e0",
+        "sha256_in_prefix": "f19c2b76983d11aae16ae6a6989849e5d4a15d1061572f7f6bf535c479a6a9e0",
+        "size_in_bytes": 11092
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/over_sampling/_smote/filter.py",
+        "path_type": "hardlink",
+        "sha256": "b3eee82fb82b0d98e794fb13f3a6ace2cd51f48507a626eecf6784827e3d5569",
+        "sha256_in_prefix": "b3eee82fb82b0d98e794fb13f3a6ace2cd51f48507a626eecf6784827e3d5569",
+        "size_in_bytes": 18410
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/over_sampling/_smote/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/over_sampling/_smote/tests/__pycache__/__init__.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "2836ef6899d4c5243d488c7181c15cbc7702e6beacfd9562b9174e1d9740c971",
+        "sha256_in_prefix": "2836ef6899d4c5243d488c7181c15cbc7702e6beacfd9562b9174e1d9740c971",
+        "size_in_bytes": 162
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/over_sampling/_smote/tests/__pycache__/test_borderline_smote.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "195e657dad669fe4184fcdb2556b5cacbd23c5f91a6dda119e02f26f6cc2f5fa",
+        "sha256_in_prefix": "195e657dad669fe4184fcdb2556b5cacbd23c5f91a6dda119e02f26f6cc2f5fa",
+        "size_in_bytes": 3886
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/over_sampling/_smote/tests/__pycache__/test_kmeans_smote.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "987bf16f912c171cfbf4868df07542e6a0495621246e8b13611d406b0a4e127a",
+        "sha256_in_prefix": "987bf16f912c171cfbf4868df07542e6a0495621246e8b13611d406b0a4e127a",
+        "size_in_bytes": 5032
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/over_sampling/_smote/tests/__pycache__/test_smote.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "937f7d64bd8a9dbdc95640690fef77e630a8174aa2b50fe95a53e350a8e11535",
+        "sha256_in_prefix": "937f7d64bd8a9dbdc95640690fef77e630a8174aa2b50fe95a53e350a8e11535",
+        "size_in_bytes": 4959
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/over_sampling/_smote/tests/__pycache__/test_smote_nc.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "e222fe5db3002c5d4735c8f70b5a0cb3d5dfa3366c1e9c65b0c1e1126a307954",
+        "sha256_in_prefix": "e222fe5db3002c5d4735c8f70b5a0cb3d5dfa3366c1e9c65b0c1e1126a307954",
+        "size_in_bytes": 20401
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/over_sampling/_smote/tests/__pycache__/test_smoten.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "0c442f5438ca9635f92ab09a856475bb172a900263839f9342b6a5afe9118b3a",
+        "sha256_in_prefix": "0c442f5438ca9635f92ab09a856475bb172a900263839f9342b6a5afe9118b3a",
+        "size_in_bytes": 5299
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/over_sampling/_smote/tests/__pycache__/test_svm_smote.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "1d24c258bc3c64023af1cfa58cd152bb20e263980ce9cbe108e3c1db87b03b77",
+        "sha256_in_prefix": "1d24c258bc3c64023af1cfa58cd152bb20e263980ce9cbe108e3c1db87b03b77",
+        "size_in_bytes": 3804
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/over_sampling/_smote/tests/test_borderline_smote.py",
+        "path_type": "hardlink",
+        "sha256": "352dfb0dec6bc06df0632a89c1b5792dc2fa1e865b191ac3bf5c8830f58e68ad",
+        "sha256_in_prefix": "352dfb0dec6bc06df0632a89c1b5792dc2fa1e865b191ac3bf5c8830f58e68ad",
+        "size_in_bytes": 3490
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/over_sampling/_smote/tests/test_kmeans_smote.py",
+        "path_type": "hardlink",
+        "sha256": "8c19dcd29caa96cc4cfa3dfc44b712fe143a26dfb87c75dc24c74bb1c939f282",
+        "sha256_in_prefix": "8c19dcd29caa96cc4cfa3dfc44b712fe143a26dfb87c75dc24c74bb1c939f282",
+        "size_in_bytes": 3632
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/over_sampling/_smote/tests/test_smote.py",
+        "path_type": "hardlink",
+        "sha256": "c8849ea596a0d76088df058993bec9f577722ea958bfdceef95392b345108fb9",
+        "sha256_in_prefix": "c8849ea596a0d76088df058993bec9f577722ea958bfdceef95392b345108fb9",
+        "size_in_bytes": 5046
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/over_sampling/_smote/tests/test_smote_nc.py",
+        "path_type": "hardlink",
+        "sha256": "1a573c24b2d6c01451c54b6218b9143529e6eaa0ca769e0cc7dcfe70c91bd2e6",
+        "sha256_in_prefix": "1a573c24b2d6c01451c54b6218b9143529e6eaa0ca769e0cc7dcfe70c91bd2e6",
+        "size_in_bytes": 13433
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/over_sampling/_smote/tests/test_smoten.py",
+        "path_type": "hardlink",
+        "sha256": "86d42822055e95954733c63e392e95aa259e411b204761889054241804e524cb",
+        "sha256_in_prefix": "86d42822055e95954733c63e392e95aa259e411b204761889054241804e524cb",
+        "size_in_bytes": 3241
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/over_sampling/_smote/tests/test_svm_smote.py",
+        "path_type": "hardlink",
+        "sha256": "026c0c2171331b0ac7982a453285c512f1909722366aafc0d3c999abb37e98b5",
+        "sha256_in_prefix": "026c0c2171331b0ac7982a453285c512f1909722366aafc0d3c999abb37e98b5",
+        "size_in_bytes": 2860
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/over_sampling/base.py",
+        "path_type": "hardlink",
+        "sha256": "e8396ac67c38aba03ac4996d45f483fca0907fd0054f43dc8a1749a43f75a7cc",
+        "sha256_in_prefix": "e8396ac67c38aba03ac4996d45f483fca0907fd0054f43dc8a1749a43f75a7cc",
+        "size_in_bytes": 2542
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/over_sampling/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/over_sampling/tests/__pycache__/__init__.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "fd0e88d6e5e3f387200614216dfcee40fb06bb18afa92b6548f515eaaef7c207",
+        "sha256_in_prefix": "fd0e88d6e5e3f387200614216dfcee40fb06bb18afa92b6548f515eaaef7c207",
+        "size_in_bytes": 155
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/over_sampling/tests/__pycache__/test_adasyn.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "a935404ba685913f11d10376d7025bfcaa31b9fdeb42a0862bfbb46f295122bb",
+        "sha256_in_prefix": "a935404ba685913f11d10376d7025bfcaa31b9fdeb42a0862bfbb46f295122bb",
+        "size_in_bytes": 4070
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/over_sampling/tests/__pycache__/test_common.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "7f24ded003d5beba5dfca78d5d8385e5aa26eb91af5e6b896f51058b13ad7c2a",
+        "sha256_in_prefix": "7f24ded003d5beba5dfca78d5d8385e5aa26eb91af5e6b896f51058b13ad7c2a",
+        "size_in_bytes": 6070
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/over_sampling/tests/__pycache__/test_random_over_sampler.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "a5d65a2310f617ea90557a2d27905666c50398c2ea0f433994eefca593c49ab8",
+        "sha256_in_prefix": "a5d65a2310f617ea90557a2d27905666c50398c2ea0f433994eefca593c49ab8",
+        "size_in_bytes": 13882
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/over_sampling/tests/test_adasyn.py",
+        "path_type": "hardlink",
+        "sha256": "361027981debce39b38e6fe0f0e9bc1960b5748ca7e38f2e424679e8b7a24d76",
+        "sha256_in_prefix": "361027981debce39b38e6fe0f0e9bc1960b5748ca7e38f2e424679e8b7a24d76",
+        "size_in_bytes": 3969
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/over_sampling/tests/test_common.py",
+        "path_type": "hardlink",
+        "sha256": "20b6cd81f474d52b70d681c58dc8ed7f58f84a8cf488aaef93a18109b9633148",
+        "sha256_in_prefix": "20b6cd81f474d52b70d681c58dc8ed7f58f84a8cf488aaef93a18109b9633148",
+        "size_in_bytes": 3662
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/over_sampling/tests/test_random_over_sampler.py",
+        "path_type": "hardlink",
+        "sha256": "ea46dba80aaf8eb875c4bc28f70ad7d6c181d2c2a9e5772c78a23615d6f62b25",
+        "sha256_in_prefix": "ea46dba80aaf8eb875c4bc28f70ad7d6c181d2c2a9e5772c78a23615d6f62b25",
+        "size_in_bytes": 10010
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/pipeline.py",
+        "path_type": "hardlink",
+        "sha256": "cf31cab498fd49b40925c13626ee1ade6e653510899985d199f4b9c22eac19ef",
+        "sha256_in_prefix": "cf31cab498fd49b40925c13626ee1ade6e653510899985d199f4b9c22eac19ef",
+        "size_in_bytes": 58495
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/tensorflow/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "9659d3e5109d6c03ab0f37612e68ddc787deccea43862897c79234d5f9cc5f8b",
+        "sha256_in_prefix": "9659d3e5109d6c03ab0f37612e68ddc787deccea43862897c79234d5f9cc5f8b",
+        "size_in_bytes": 193
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/tensorflow/__pycache__/__init__.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "2e8c91784bdef72deb857f8f79df57f69698cd137b2a7859d972b6a6ece14ed6",
+        "sha256_in_prefix": "2e8c91784bdef72deb857f8f79df57f69698cd137b2a7859d972b6a6ece14ed6",
+        "size_in_bytes": 354
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/tensorflow/__pycache__/_generator.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "7dc86932ced4ea3ed0fa93f694878104eaf0c1609a87f23d53253a1247611c85",
+        "sha256_in_prefix": "7dc86932ced4ea3ed0fa93f694878104eaf0c1609a87f23d53253a1247611c85",
+        "size_in_bytes": 3461
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/tensorflow/_generator.py",
+        "path_type": "hardlink",
+        "sha256": "73f6f0bf28e068ce10615e25b773c0bc7542809ef599cacdd7dfd24ba49a9776",
+        "sha256_in_prefix": "73f6f0bf28e068ce10615e25b773c0bc7542809ef599cacdd7dfd24ba49a9776",
+        "size_in_bytes": 3294
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/tensorflow/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/tensorflow/tests/__pycache__/__init__.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "2a75ba5d70f42c274536c6d6125c62766bd819ab010e8945545e083a62b29ebe",
+        "sha256_in_prefix": "2a75ba5d70f42c274536c6d6125c62766bd819ab010e8945545e083a62b29ebe",
+        "size_in_bytes": 152
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/tensorflow/tests/__pycache__/test_generator.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "8acc025bfdd42d3e577b59f88b5d708893b8e276b6da1a311e80a63d82969371",
+        "sha256_in_prefix": "8acc025bfdd42d3e577b59f88b5d708893b8e276b6da1a311e80a63d82969371",
+        "size_in_bytes": 7980
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/tensorflow/tests/test_generator.py",
+        "path_type": "hardlink",
+        "sha256": "d0b1c05877cb2b2f908ed8cd09943174fa6882605ac404e4df65a324e1d362cc",
+        "sha256_in_prefix": "d0b1c05877cb2b2f908ed8cd09943174fa6882605ac404e4df65a324e1d362cc",
+        "size_in_bytes": 5428
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/tests/__pycache__/__init__.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "c6b8b87220c45d0f7dfc76bfde3b53e6352b05a3704994f4267d0007caa8e4fb",
+        "sha256_in_prefix": "c6b8b87220c45d0f7dfc76bfde3b53e6352b05a3704994f4267d0007caa8e4fb",
+        "size_in_bytes": 141
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/tests/__pycache__/test_base.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "e5e04164e29b7ef4b272e64293795a0e7315960a83a6a798fac9eb4b6ff3770f",
+        "sha256_in_prefix": "e5e04164e29b7ef4b272e64293795a0e7315960a83a6a798fac9eb4b6ff3770f",
+        "size_in_bytes": 5640
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/tests/__pycache__/test_common.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "d77258e6a8ccfd8ce0b2f85177b44756ba084875d5dc2d87ca045d827edd7b79",
+        "sha256_in_prefix": "d77258e6a8ccfd8ce0b2f85177b44756ba084875d5dc2d87ca045d827edd7b79",
+        "size_in_bytes": 4957
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/tests/__pycache__/test_docstring_parameters.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "517dfac711173bd3cbd46ac391c2c83748ee69d5c3e73f4ccf40ddb368c0291d",
+        "sha256_in_prefix": "517dfac711173bd3cbd46ac391c2c83748ee69d5c3e73f4ccf40ddb368c0291d",
+        "size_in_bytes": 10002
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/tests/__pycache__/test_exceptions.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "e722a03e2db86cf890db2efc8c1bf1b0b45286e4e3b7a96352382ebbec1dbcf5",
+        "sha256_in_prefix": "e722a03e2db86cf890db2efc8c1bf1b0b45286e4e3b7a96352382ebbec1dbcf5",
+        "size_in_bytes": 663
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/tests/__pycache__/test_pipeline.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "3ee4648fd86088bdd159e2fbf43573d96382e41d6840cb8f56d2193b6a5525a3",
+        "sha256_in_prefix": "3ee4648fd86088bdd159e2fbf43573d96382e41d6840cb8f56d2193b6a5525a3",
+        "size_in_bytes": 65357
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/tests/__pycache__/test_public_functions.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "86074c4c63b761cb1cf4c40322daa54fd05c8990fdd2a04077c17927bb4d3d05",
+        "sha256_in_prefix": "86074c4c63b761cb1cf4c40322daa54fd05c8990fdd2a04077c17927bb4d3d05",
+        "size_in_bytes": 4342
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/tests/test_base.py",
+        "path_type": "hardlink",
+        "sha256": "e464c70313237acaee83f4827ff803b4c1f81e502d55b314b51775588eeced87",
+        "sha256_in_prefix": "e464c70313237acaee83f4827ff803b4c1f81e502d55b314b51775588eeced87",
+        "size_in_bytes": 3397
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/tests/test_common.py",
+        "path_type": "hardlink",
+        "sha256": "4217199e748474a8792bf546d0ff9392a5adbf2b7010869d7a306050e239109b",
+        "sha256_in_prefix": "4217199e748474a8792bf546d0ff9392a5adbf2b7010869d7a306050e239109b",
+        "size_in_bytes": 3420
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/tests/test_docstring_parameters.py",
+        "path_type": "hardlink",
+        "sha256": "5e62ae4cbc1f30bf8995f3bd5d9f427e9829fcb4d77d3d254604bf3f017f998d",
+        "sha256_in_prefix": "5e62ae4cbc1f30bf8995f3bd5d9f427e9829fcb4d77d3d254604bf3f017f998d",
+        "size_in_bytes": 8348
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/tests/test_exceptions.py",
+        "path_type": "hardlink",
+        "sha256": "70b81512912a3167e03b40588616c0c3e31795606de8fc02bcdaf84a51420857",
+        "sha256_in_prefix": "70b81512912a3167e03b40588616c0c3e31795606de8fc02bcdaf84a51420857",
+        "size_in_bytes": 375
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/tests/test_pipeline.py",
+        "path_type": "hardlink",
+        "sha256": "4db20c13b1b76d32111ea43f4a3e0fe12e22a77b78c3f3830252e1d1d82ed260",
+        "sha256_in_prefix": "4db20c13b1b76d32111ea43f4a3e0fe12e22a77b78c3f3830252e1d1d82ed260",
+        "size_in_bytes": 48705
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/tests/test_public_functions.py",
+        "path_type": "hardlink",
+        "sha256": "74c382b44e309ef6eae21ad43f7ba274e5f19a24d77c026a34924df8929e8c99",
+        "sha256_in_prefix": "74c382b44e309ef6eae21ad43f7ba274e5f19a24d77c026a34924df8929e8c99",
+        "size_in_bytes": 4036
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/under_sampling/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "d9890650e1f1bbd2a6ff81d0245fbcdbbcafce374c561a261e6528db9b31c9d1",
+        "sha256_in_prefix": "d9890650e1f1bbd2a6ff81d0245fbcdbbcafce374c561a261e6528db9b31c9d1",
+        "size_in_bytes": 733
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/under_sampling/__pycache__/__init__.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "b7861da25bad7b4bf3b43786238342b1b150979a31fa7dc7eac3a77c30415db6",
+        "sha256_in_prefix": "b7861da25bad7b4bf3b43786238342b1b150979a31fa7dc7eac3a77c30415db6",
+        "size_in_bytes": 743
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/under_sampling/__pycache__/base.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "0140f115800681713ac603c95b6f703825ff0bb76eb3c6cbbf6e1a77ce7ae14c",
+        "sha256_in_prefix": "0140f115800681713ac603c95b6f703825ff0bb76eb3c6cbbf6e1a77ce7ae14c",
+        "size_in_bytes": 4337
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/under_sampling/_prototype_generation/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "eb5b188fe2cbe6c6654936a39910b5237fe59a1b9423ff4ecdef58b1a44205f3",
+        "sha256_in_prefix": "eb5b188fe2cbe6c6654936a39910b5237fe59a1b9423ff4ecdef58b1a44205f3",
+        "size_in_bytes": 232
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/under_sampling/_prototype_generation/__pycache__/__init__.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "477688c2efe3b1d2b44d429b127263ff16479ae704a382d5344fd68ddbfa5787",
+        "sha256_in_prefix": "477688c2efe3b1d2b44d429b127263ff16479ae704a382d5344fd68ddbfa5787",
+        "size_in_bytes": 427
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/under_sampling/_prototype_generation/__pycache__/_cluster_centroids.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "5d32d6aa07039000fdb0c5c15c439d47ef8ab3808f4ac170b55a453631addfc8",
+        "sha256_in_prefix": "5d32d6aa07039000fdb0c5c15c439d47ef8ab3808f4ac170b55a453631addfc8",
+        "size_in_bytes": 9009
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/under_sampling/_prototype_generation/_cluster_centroids.py",
+        "path_type": "hardlink",
+        "sha256": "a1d1a4aa502a59e1fee37da31b166a756e18e6902f10fb9e616121b99650b748",
+        "sha256_in_prefix": "a1d1a4aa502a59e1fee37da31b166a756e18e6902f10fb9e616121b99650b748",
+        "size_in_bytes": 7677
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/under_sampling/_prototype_generation/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/under_sampling/_prototype_generation/tests/__pycache__/__init__.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "ed20f464eab995328139a4f54e4ab46aa00e4515a3cf700f478c80fb2f622c3a",
+        "sha256_in_prefix": "ed20f464eab995328139a4f54e4ab46aa00e4515a3cf700f478c80fb2f622c3a",
+        "size_in_bytes": 178
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/under_sampling/_prototype_generation/tests/__pycache__/test_cluster_centroids.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "675b10c7a008d9e94ffc808203a21909dff1b94baa1dabb7825068d3ff763166",
+        "sha256_in_prefix": "675b10c7a008d9e94ffc808203a21909dff1b94baa1dabb7825068d3ff763166",
+        "size_in_bytes": 7604
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/under_sampling/_prototype_generation/tests/test_cluster_centroids.py",
+        "path_type": "hardlink",
+        "sha256": "99a3cae207de208a90b5a73434c271dd35d8e52499173d0c593053d18b80e058",
+        "sha256_in_prefix": "99a3cae207de208a90b5a73434c271dd35d8e52499173d0c593053d18b80e058",
+        "size_in_bytes": 5289
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/under_sampling/_prototype_selection/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "c263bd203baaad28608175052be1da5b23636e444628eada36f067b3134c876e",
+        "sha256_in_prefix": "c263bd203baaad28608175052be1da5b23636e444628eada36f067b3134c876e",
+        "size_in_bytes": 928
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/under_sampling/_prototype_selection/__pycache__/__init__.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "95bc4e66b3d2b3286ab27aaee2abdd39f43a94ee8f2e96e2f85618997e8eb745",
+        "sha256_in_prefix": "95bc4e66b3d2b3286ab27aaee2abdd39f43a94ee8f2e96e2f85618997e8eb745",
+        "size_in_bytes": 1008
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/under_sampling/_prototype_selection/__pycache__/_condensed_nearest_neighbour.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "f18a83477ffb17dd0501e2a1b201a04477c7ce4ac95ae71efed4f280b4dc4f6a",
+        "sha256_in_prefix": "f18a83477ffb17dd0501e2a1b201a04477c7ce4ac95ae71efed4f280b4dc4f6a",
+        "size_in_bytes": 10136
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/under_sampling/_prototype_selection/__pycache__/_edited_nearest_neighbours.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "8f0fca4609dc332bb4978b03f67bbcc2edf9e7fe3294095376a3154f051f87e1",
+        "sha256_in_prefix": "8f0fca4609dc332bb4978b03f67bbcc2edf9e7fe3294095376a3154f051f87e1",
+        "size_in_bytes": 22541
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/under_sampling/_prototype_selection/__pycache__/_instance_hardness_threshold.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "2b776bd5851fb0243361780e390fcb7ef149a93fa8322f86b6a40abe8c526cc8",
+        "sha256_in_prefix": "2b776bd5851fb0243361780e390fcb7ef149a93fa8322f86b6a40abe8c526cc8",
+        "size_in_bytes": 7504
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/under_sampling/_prototype_selection/__pycache__/_nearmiss.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "c9bca1716d17ee463274fc917db319879b997cdc23e92846191a01b718f8b5a8",
+        "sha256_in_prefix": "c9bca1716d17ee463274fc917db319879b997cdc23e92846191a01b718f8b5a8",
+        "size_in_bytes": 11043
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/under_sampling/_prototype_selection/__pycache__/_neighbourhood_cleaning_rule.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "c2658106ccd3e444c339a9bea7b4b815e165e1b07eea386ab275f86f05c5529a",
+        "sha256_in_prefix": "c2658106ccd3e444c339a9bea7b4b815e165e1b07eea386ab275f86f05c5529a",
+        "size_in_bytes": 10925
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/under_sampling/_prototype_selection/__pycache__/_one_sided_selection.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "1eb89a14c171faf474619383107022ad2d63cf32acc27e66d1af00abddebb693",
+        "sha256_in_prefix": "1eb89a14c171faf474619383107022ad2d63cf32acc27e66d1af00abddebb693",
+        "size_in_bytes": 9383
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/under_sampling/_prototype_selection/__pycache__/_random_under_sampler.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "c560cf40214321f2e3bb6d7a97abb2a6b7c9f5ed0e01c1bb9771ddf2146ead2d",
+        "sha256_in_prefix": "c560cf40214321f2e3bb6d7a97abb2a6b7c9f5ed0e01c1bb9771ddf2146ead2d",
+        "size_in_bytes": 5750
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/under_sampling/_prototype_selection/__pycache__/_tomek_links.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "6b10f38d03b4bd3f31d8f6b26969308c61af33d495fccfd822d4bd6eecb954f7",
+        "sha256_in_prefix": "6b10f38d03b4bd3f31d8f6b26969308c61af33d495fccfd822d4bd6eecb954f7",
+        "size_in_bytes": 6044
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/under_sampling/_prototype_selection/_condensed_nearest_neighbour.py",
+        "path_type": "hardlink",
+        "sha256": "fe31e619aaa4a4283db59343480d07c0b120a04f3d869239e90cfed1c3e5c83a",
+        "sha256_in_prefix": "fe31e619aaa4a4283db59343480d07c0b120a04f3d869239e90cfed1c3e5c83a",
+        "size_in_bytes": 9805
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/under_sampling/_prototype_selection/_edited_nearest_neighbours.py",
+        "path_type": "hardlink",
+        "sha256": "172afeedfb5abb1e2c7923488c980a4ac5eda7312537cad837d52e16215906a7",
+        "sha256_in_prefix": "172afeedfb5abb1e2c7923488c980a4ac5eda7312537cad837d52e16215906a7",
+        "size_in_bytes": 21935
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/under_sampling/_prototype_selection/_instance_hardness_threshold.py",
+        "path_type": "hardlink",
+        "sha256": "b8d5738717e942d8ed224507ff853d5611250f693370366993d43ad6658ef38a",
+        "sha256_in_prefix": "b8d5738717e942d8ed224507ff853d5611250f693370366993d43ad6658ef38a",
+        "size_in_bytes": 6632
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/under_sampling/_prototype_selection/_nearmiss.py",
+        "path_type": "hardlink",
+        "sha256": "e6bce07350fd055f0a6c8ef4bd6155952f91510d37381f12bf4930fa6224cf99",
+        "sha256_in_prefix": "e6bce07350fd055f0a6c8ef4bd6155952f91510d37381f12bf4930fa6224cf99",
+        "size_in_bytes": 11391
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/under_sampling/_prototype_selection/_neighbourhood_cleaning_rule.py",
+        "path_type": "hardlink",
+        "sha256": "700ad960b744eb4365f01f39208f5ab05c1cdc3ec64a886cbbf4b2cc0e16ec25",
+        "sha256_in_prefix": "700ad960b744eb4365f01f39208f5ab05c1cdc3ec64a886cbbf4b2cc0e16ec25",
+        "size_in_bytes": 9806
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/under_sampling/_prototype_selection/_one_sided_selection.py",
+        "path_type": "hardlink",
+        "sha256": "8f4c8c8a678e2aa6a31942c43383c45b528c039aa058a7243d8622208912098b",
+        "sha256_in_prefix": "8f4c8c8a678e2aa6a31942c43383c45b528c039aa058a7243d8622208912098b",
+        "size_in_bytes": 8443
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/under_sampling/_prototype_selection/_random_under_sampler.py",
+        "path_type": "hardlink",
+        "sha256": "e0141f1b88f6f608c53204c9b0f89736ddcad0b9f4ff1882c57fbadd8d6cf103",
+        "sha256_in_prefix": "e0141f1b88f6f608c53204c9b0f89736ddcad0b9f4ff1882c57fbadd8d6cf103",
+        "size_in_bytes": 4859
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/under_sampling/_prototype_selection/_tomek_links.py",
+        "path_type": "hardlink",
+        "sha256": "097c4a6e47bde26f3d79aefefcbbb2a5b92009803b8e29f14afbdc319a6ddd34",
+        "sha256_in_prefix": "097c4a6e47bde26f3d79aefefcbbb2a5b92009803b8e29f14afbdc319a6ddd34",
+        "size_in_bytes": 5258
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/under_sampling/_prototype_selection/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/under_sampling/_prototype_selection/tests/__pycache__/__init__.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "e22ce0889354acc5c92ad3e1872517149a943e309160c020a11558e85ac9d989",
+        "sha256_in_prefix": "e22ce0889354acc5c92ad3e1872517149a943e309160c020a11558e85ac9d989",
+        "size_in_bytes": 177
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/under_sampling/_prototype_selection/tests/__pycache__/test_allknn.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "9ece1d2a2a9308fdc5e02e297aa068f7c15844fcecd1f0a274c8a5d289eda273",
+        "sha256_in_prefix": "9ece1d2a2a9308fdc5e02e297aa068f7c15844fcecd1f0a274c8a5d289eda273",
+        "size_in_bytes": 8310
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/under_sampling/_prototype_selection/tests/__pycache__/test_condensed_nearest_neighbour.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "ddf54dcad16ced9a82c85bcc4cfc39c2f8cf11581c1bdb728302e44423e6dfdb",
+        "sha256_in_prefix": "ddf54dcad16ced9a82c85bcc4cfc39c2f8cf11581c1bdb728302e44423e6dfdb",
+        "size_in_bytes": 5340
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/under_sampling/_prototype_selection/tests/__pycache__/test_edited_nearest_neighbours.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "07bc95de4bc2e09295d1f64e4293cae4de4982bff1e4ed5f2691aac7f578a300",
+        "sha256_in_prefix": "07bc95de4bc2e09295d1f64e4293cae4de4982bff1e4ed5f2691aac7f578a300",
+        "size_in_bytes": 4874
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/under_sampling/_prototype_selection/tests/__pycache__/test_instance_hardness_threshold.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "1c4d7ba7b78cabf651276038576a03cb73447ef2573ca6ba1c53cf5b74fd87ed",
+        "sha256_in_prefix": "1c4d7ba7b78cabf651276038576a03cb73447ef2573ca6ba1c53cf5b74fd87ed",
+        "size_in_bytes": 5178
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/under_sampling/_prototype_selection/tests/__pycache__/test_nearmiss.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "8601866cb5343e08e8d24a7bb09483cb6a987327a1fa3bce20ba983433d5a3f1",
+        "sha256_in_prefix": "8601866cb5343e08e8d24a7bb09483cb6a987327a1fa3bce20ba983433d5a3f1",
+        "size_in_bytes": 5594
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/under_sampling/_prototype_selection/tests/__pycache__/test_neighbourhood_cleaning_rule.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "59b78ac95958db3aea70221c1b7156150db082a27b34734cd788c38f52def8ad",
+        "sha256_in_prefix": "59b78ac95958db3aea70221c1b7156150db082a27b34734cd788c38f52def8ad",
+        "size_in_bytes": 3663
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/under_sampling/_prototype_selection/tests/__pycache__/test_one_sided_selection.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "4341544fb7445fd61c6ab7f33206e7b88ae1aab597ab74ed66c7e8ffc84056c3",
+        "sha256_in_prefix": "4341544fb7445fd61c6ab7f33206e7b88ae1aab597ab74ed66c7e8ffc84056c3",
+        "size_in_bytes": 5292
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/under_sampling/_prototype_selection/tests/__pycache__/test_random_under_sampler.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "6646cde2dc7bf06ff7f4800d42214a021c31525f85f81917d932602080846ecb",
+        "sha256_in_prefix": "6646cde2dc7bf06ff7f4800d42214a021c31525f85f81917d932602080846ecb",
+        "size_in_bytes": 8514
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/under_sampling/_prototype_selection/tests/__pycache__/test_repeated_edited_nearest_neighbours.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "74271898cbe3659b64abf87e2ad02bb54c702ab2e750f66bc5924867db40d453",
+        "sha256_in_prefix": "74271898cbe3659b64abf87e2ad02bb54c702ab2e750f66bc5924867db40d453",
+        "size_in_bytes": 8799
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/under_sampling/_prototype_selection/tests/__pycache__/test_tomek_links.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "ac027338038923146363a95cfe97933ca39b42f576a60382af6bea14a650c2c2",
+        "sha256_in_prefix": "ac027338038923146363a95cfe97933ca39b42f576a60382af6bea14a650c2c2",
+        "size_in_bytes": 3214
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/under_sampling/_prototype_selection/tests/test_allknn.py",
+        "path_type": "hardlink",
+        "sha256": "cfabceb1e76cb05573a245579b360ba500e85cfa94cab5ae9141eed7c2519c5d",
+        "sha256_in_prefix": "cfabceb1e76cb05573a245579b360ba500e85cfa94cab5ae9141eed7c2519c5d",
+        "size_in_bytes": 8773
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/under_sampling/_prototype_selection/tests/test_condensed_nearest_neighbour.py",
+        "path_type": "hardlink",
+        "sha256": "f32d2cab57774924fb70a5b461a8a55e9cdfa6bb461ec64139361cb8e50591c0",
+        "sha256_in_prefix": "f32d2cab57774924fb70a5b461a8a55e9cdfa6bb461ec64139361cb8e50591c0",
+        "size_in_bytes": 4227
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/under_sampling/_prototype_selection/tests/test_edited_nearest_neighbours.py",
+        "path_type": "hardlink",
+        "sha256": "cf79d5680af8c4a0f32b79e29018f2e13b7aca105b1fbedd212618e4540122a0",
+        "sha256_in_prefix": "cf79d5680af8c4a0f32b79e29018f2e13b7aca105b1fbedd212618e4540122a0",
+        "size_in_bytes": 4212
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/under_sampling/_prototype_selection/tests/test_instance_hardness_threshold.py",
+        "path_type": "hardlink",
+        "sha256": "d2371b5101fbcd51209ba5a2457e899c3c0ceb5c5785c562a8fa32b1e3468939",
+        "sha256_in_prefix": "d2371b5101fbcd51209ba5a2457e899c3c0ceb5c5785c562a8fa32b1e3468939",
+        "size_in_bytes": 3758
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/under_sampling/_prototype_selection/tests/test_nearmiss.py",
+        "path_type": "hardlink",
+        "sha256": "8164c846b75e19adf70ef3033419f9f18db64c9004fc258252ee2bb48f4d88b2",
+        "sha256_in_prefix": "8164c846b75e19adf70ef3033419f9f18db64c9004fc258252ee2bb48f4d88b2",
+        "size_in_bytes": 6989
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/under_sampling/_prototype_selection/tests/test_neighbourhood_cleaning_rule.py",
+        "path_type": "hardlink",
+        "sha256": "010ae17f428b9307ffde9040ed4723ccead2e80be1c83eedc238e24bdc2ef658",
+        "sha256_in_prefix": "010ae17f428b9307ffde9040ed4723ccead2e80be1c83eedc238e24bdc2ef658",
+        "size_in_bytes": 2574
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/under_sampling/_prototype_selection/tests/test_one_sided_selection.py",
+        "path_type": "hardlink",
+        "sha256": "64b869f7b1a0cfa532c9812901a13eb115421c8ac763f714232526d0c9ca9f00",
+        "sha256_in_prefix": "64b869f7b1a0cfa532c9812901a13eb115421c8ac763f714232526d0c9ca9f00",
+        "size_in_bytes": 4185
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/under_sampling/_prototype_selection/tests/test_random_under_sampler.py",
+        "path_type": "hardlink",
+        "sha256": "395d53b0a8e0fc148924bfc9b9e8f5f38f50e72dad1bd7cb44bc6e432ca971d1",
+        "sha256_in_prefix": "395d53b0a8e0fc148924bfc9b9e8f5f38f50e72dad1bd7cb44bc6e432ca971d1",
+        "size_in_bytes": 5574
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/under_sampling/_prototype_selection/tests/test_repeated_edited_nearest_neighbours.py",
+        "path_type": "hardlink",
+        "sha256": "3c5b1c92dffac6e39562dc14aadf2653b2756d76133221c05e58f843404730ce",
+        "sha256_in_prefix": "3c5b1c92dffac6e39562dc14aadf2653b2756d76133221c05e58f843404730ce",
+        "size_in_bytes": 8727
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/under_sampling/_prototype_selection/tests/test_tomek_links.py",
+        "path_type": "hardlink",
+        "sha256": "b6566b630f171d61717d4662a3068a8c0cb15e4d65d2c770c841ce1214b1bd9b",
+        "sha256_in_prefix": "b6566b630f171d61717d4662a3068a8c0cb15e4d65d2c770c841ce1214b1bd9b",
+        "size_in_bytes": 2698
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/under_sampling/base.py",
+        "path_type": "hardlink",
+        "sha256": "b782c1f1a8165bb277bd7b0cfe02991ec1085c956e3d71cec78ad48b7e2e5812",
+        "sha256_in_prefix": "b782c1f1a8165bb277bd7b0cfe02991ec1085c956e3d71cec78ad48b7e2e5812",
+        "size_in_bytes": 3927
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/utils/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "4a699ae7ab7a593f8fd2e621307be773a66fa20a4ad78bb55d7ba3af15e0645d",
+        "sha256_in_prefix": "4a699ae7ab7a593f8fd2e621307be773a66fa20a4ad78bb55d7ba3af15e0645d",
+        "size_in_bytes": 337
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/utils/__pycache__/__init__.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "8735aa9157298e63b1771fc8f71856371cea8db8d0ecc9333a44d6ee99bb5eed",
+        "sha256_in_prefix": "8735aa9157298e63b1771fc8f71856371cea8db8d0ecc9333a44d6ee99bb5eed",
+        "size_in_bytes": 449
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/utils/__pycache__/_docstring.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "7152f53c3ee8b6f9fe0256953a7f041dc8a0f2429efa0e5b1a3643e666bcd01e",
+        "sha256_in_prefix": "7152f53c3ee8b6f9fe0256953a7f041dc8a0f2429efa0e5b1a3643e666bcd01e",
+        "size_in_bytes": 2179
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/utils/__pycache__/_show_versions.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "178e34f87306fcadaedd9822971943df5879b41485fd2f8f9adb5e8578c002da",
+        "sha256_in_prefix": "178e34f87306fcadaedd9822971943df5879b41485fd2f8f9adb5e8578c002da",
+        "size_in_bytes": 2460
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/utils/__pycache__/_sklearn_compat.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "3602b19181d7b0f619aba3e1aee6aaea7caef4a446b7f1207b775e3ba7ae05ab",
+        "sha256_in_prefix": "3602b19181d7b0f619aba3e1aee6aaea7caef4a446b7f1207b775e3ba7ae05ab",
+        "size_in_bytes": 26410
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/utils/__pycache__/_tags.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "d05ffe4d2331835616e87a100683540e9898a688a124ab061eef997cefb639e3",
+        "sha256_in_prefix": "d05ffe4d2331835616e87a100683540e9898a688a124ab061eef997cefb639e3",
+        "size_in_bytes": 230
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/utils/__pycache__/_validation.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "b17ce96fa8473fe28f56159aa050d9f35329c423e051e9fba6aa2290bad78310",
+        "sha256_in_prefix": "b17ce96fa8473fe28f56159aa050d9f35329c423e051e9fba6aa2290bad78310",
+        "size_in_bytes": 25803
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/utils/__pycache__/deprecation.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "78ac182d544946983dc68664d2e84ecf7bafa4fe81083506c0fa10ac40c2fd00",
+        "sha256_in_prefix": "78ac182d544946983dc68664d2e84ecf7bafa4fe81083506c0fa10ac40c2fd00",
+        "size_in_bytes": 1723
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/utils/__pycache__/estimator_checks.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "c874b1e6da988fd70d06729d1611b3f787405c3b6e25132f53e02b79f1739de4",
+        "sha256_in_prefix": "c874b1e6da988fd70d06729d1611b3f787405c3b6e25132f53e02b79f1739de4",
+        "size_in_bytes": 42630
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/utils/__pycache__/testing.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "4d723a08cfc99470ae6da638a575f5bb6286d162211d834e29cac6a48bc1d739",
+        "sha256_in_prefix": "4d723a08cfc99470ae6da638a575f5bb6286d162211d834e29cac6a48bc1d739",
+        "size_in_bytes": 7538
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/utils/_docstring.py",
+        "path_type": "hardlink",
+        "sha256": "4545b95f07bfdc39cef23502b9434426dafc7609f060239e16f41207fa4ff3b9",
+        "sha256_in_prefix": "4545b95f07bfdc39cef23502b9434426dafc7609f060239e16f41207fa4ff3b9",
+        "size_in_bytes": 1512
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/utils/_show_versions.py",
+        "path_type": "hardlink",
+        "sha256": "e8284ce7006b13a52f6109f61ee79369b59fc0f8abe1ab30cd4babc2d7d4c83b",
+        "sha256_in_prefix": "e8284ce7006b13a52f6109f61ee79369b59fc0f8abe1ab30cd4babc2d7d4c83b",
+        "size_in_bytes": 2176
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/utils/_sklearn_compat.py",
+        "path_type": "hardlink",
+        "sha256": "661962d853144af435cc0aee3233db4f0fea572791f743086f04a0553252eccf",
+        "sha256_in_prefix": "661962d853144af435cc0aee3233db4f0fea572791f743086f04a0553252eccf",
+        "size_in_bytes": 28656
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/utils/_tags.py",
+        "path_type": "hardlink",
+        "sha256": "a25c6ca4a211d9929c7cd2f1f521c56cc10e679529701662f339fc9cb01ff727",
+        "sha256_in_prefix": "a25c6ca4a211d9929c7cd2f1f521c56cc10e679529701662f339fc9cb01ff727",
+        "size_in_bytes": 72
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/utils/_test_common/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/utils/_test_common/__pycache__/__init__.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "64424a5a9cc87237d71b562b35d3e49921a3b675158505e6a365713453f1a98e",
+        "sha256_in_prefix": "64424a5a9cc87237d71b562b35d3e49921a3b675158505e6a365713453f1a98e",
+        "size_in_bytes": 154
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/utils/_test_common/__pycache__/instance_generator.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "b436810185f400cab1685567ab12985e811dd6fed89e8f318bfe93f6993f3dcc",
+        "sha256_in_prefix": "b436810185f400cab1685567ab12985e811dd6fed89e8f318bfe93f6993f3dcc",
+        "size_in_bytes": 7943
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/utils/_test_common/instance_generator.py",
+        "path_type": "hardlink",
+        "sha256": "bec959eec846bdbdf6d48107fccbccb3480ae5a63a8b705722116f51f757f148",
+        "sha256_in_prefix": "bec959eec846bdbdf6d48107fccbccb3480ae5a63a8b705722116f51f757f148",
+        "size_in_bytes": 8162
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/utils/_validation.py",
+        "path_type": "hardlink",
+        "sha256": "efd115f75aa3dc06ceeee17577918819ae34cc656ff6a856e338dee3791801ad",
+        "sha256_in_prefix": "efd115f75aa3dc06ceeee17577918819ae34cc656ff6a856e338dee3791801ad",
+        "size_in_bytes": 24003
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/utils/deprecation.py",
+        "path_type": "hardlink",
+        "sha256": "4a3af537b44b2244d71b17ded4c72a86ac5d48c77a889fb3b06c7b4b975a087e",
+        "sha256_in_prefix": "4a3af537b44b2244d71b17ded4c72a86ac5d48c77a889fb3b06c7b4b975a087e",
+        "size_in_bytes": 1727
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/utils/estimator_checks.py",
+        "path_type": "hardlink",
+        "sha256": "fc3006bd3f416a79a2784deaf408029e6e035aa70258aa3e7174624db9fb8330",
+        "sha256_in_prefix": "fc3006bd3f416a79a2784deaf408029e6e035aa70258aa3e7174624db9fb8330",
+        "size_in_bytes": 33350
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/utils/testing.py",
+        "path_type": "hardlink",
+        "sha256": "561b6f3842975986c8a12960989e9cf35dc24e8b7c33591a0d162c657994c2bf",
+        "sha256_in_prefix": "561b6f3842975986c8a12960989e9cf35dc24e8b7c33591a0d162c657994c2bf",
+        "size_in_bytes": 5300
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/utils/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/utils/tests/__pycache__/__init__.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "63b88d02c4f470f6417db535626058bcf790c0b7fef0297337ee55d8f0d7a942",
+        "sha256_in_prefix": "63b88d02c4f470f6417db535626058bcf790c0b7fef0297337ee55d8f0d7a942",
+        "size_in_bytes": 147
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/utils/tests/__pycache__/test_deprecation.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "f04e0f292102a2d492eeef06860561b142cfbabd61a783a6b0ea73b1dfe51c5c",
+        "sha256_in_prefix": "f04e0f292102a2d492eeef06860561b142cfbabd61a783a6b0ea73b1dfe51c5c",
+        "size_in_bytes": 1314
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/utils/tests/__pycache__/test_docstring.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "4a3b301a53b13e7f82537662e59ce19dba0cca8355d98c97e332dfcd3d6f708d",
+        "sha256_in_prefix": "4a3b301a53b13e7f82537662e59ce19dba0cca8355d98c97e332dfcd3d6f708d",
+        "size_in_bytes": 2951
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/utils/tests/__pycache__/test_estimator_checks.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "f73514d91d738851cae467da580c11d1713c40577bd43945a1fcfd6e6f120159",
+        "sha256_in_prefix": "f73514d91d738851cae467da580c11d1713c40577bd43945a1fcfd6e6f120159",
+        "size_in_bytes": 6395
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/utils/tests/__pycache__/test_min_dependencies.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "7ddb4e6228c8fd3a6f661fc94d18cf936ad00c7d4d2db852fd419b2ba64f2db2",
+        "sha256_in_prefix": "7ddb4e6228c8fd3a6f661fc94d18cf936ad00c7d4d2db852fd419b2ba64f2db2",
+        "size_in_bytes": 3626
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/utils/tests/__pycache__/test_show_versions.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "004e972dc2986fc2583db5e8767b960bc46270960039633404d3cee0005792f8",
+        "sha256_in_prefix": "004e972dc2986fc2583db5e8767b960bc46270960039633404d3cee0005792f8",
+        "size_in_bytes": 2597
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/utils/tests/__pycache__/test_testing.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "cc693cdac758caf27ba62322d96a88e3ed89bba65c1f8a8d172c0b2388e16730",
+        "sha256_in_prefix": "cc693cdac758caf27ba62322d96a88e3ed89bba65c1f8a8d172c0b2388e16730",
+        "size_in_bytes": 2423
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/utils/tests/__pycache__/test_validation.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "22d09cb0ef76307d06b42c4b325d46f3ef88b5d1753e1aede3289ed6c4d990b0",
+        "sha256_in_prefix": "22d09cb0ef76307d06b42c4b325d46f3ef88b5d1753e1aede3289ed6c4d990b0",
+        "size_in_bytes": 19367
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/utils/tests/test_deprecation.py",
+        "path_type": "hardlink",
+        "sha256": "81de841d1b61764891010732ec2e0c03c3a145777e72de4585eedd36ac79e8e2",
+        "sha256_in_prefix": "81de841d1b61764891010732ec2e0c03c3a145777e72de4585eedd36ac79e8e2",
+        "size_in_bytes": 554
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/utils/tests/test_docstring.py",
+        "path_type": "hardlink",
+        "sha256": "41d73dae48f495b8f044979e839d7c52be02e563a43c34ea0e267172ca9bd988",
+        "sha256_in_prefix": "41d73dae48f495b8f044979e839d7c52be02e563a43c34ea0e267172ca9bd988",
+        "size_in_bytes": 1997
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/utils/tests/test_estimator_checks.py",
+        "path_type": "hardlink",
+        "sha256": "69b895927be424027922054274de38702437d39e65b79be13eb5d0e85b0df0c7",
+        "sha256_in_prefix": "69b895927be424027922054274de38702437d39e65b79be13eb5d0e85b0df0c7",
+        "size_in_bytes": 3598
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/utils/tests/test_min_dependencies.py",
+        "path_type": "hardlink",
+        "sha256": "2e053a4beecb44a0d9fa50197f3a2687e4a52c567742f2e959de1ae3fe3832a6",
+        "sha256_in_prefix": "2e053a4beecb44a0d9fa50197f3a2687e4a52c567742f2e959de1ae3fe3832a6",
+        "size_in_bytes": 2745
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/utils/tests/test_show_versions.py",
+        "path_type": "hardlink",
+        "sha256": "d52178b927c24b1694a1519fd6eb93a4ca6858a062630890cd4e3061a44e668d",
+        "sha256_in_prefix": "d52178b927c24b1694a1519fd6eb93a4ca6858a062630890cd4e3061a44e668d",
+        "size_in_bytes": 1818
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/utils/tests/test_testing.py",
+        "path_type": "hardlink",
+        "sha256": "291fb77462204a0684a591cd792ad5046b145cf7eb602a883481e441a889748d",
+        "sha256_in_prefix": "291fb77462204a0684a591cd792ad5046b145cf7eb602a883481e441a889748d",
+        "size_in_bytes": 1692
+      },
+      {
+        "_path": "Lib/site-packages/imblearn/utils/tests/test_validation.py",
+        "path_type": "hardlink",
+        "sha256": "c16812a935c4fb9645c7636e4292379edd110b2f0c78d5735c2c0edd38a1f80c",
+        "sha256_in_prefix": "c16812a935c4fb9645c7636e4292379edd110b2f0c78d5735c2c0edd38a1f80c",
+        "size_in_bytes": 13627
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "imbalanced-learn",
+  "sha256": "c8942481cc7e30e3b183068a31415076c8f2c4b4e8ff35dd38923a5d402c76df",
+  "size": 394766,
+  "subdir": "win-64",
+  "timestamp": 1738614476000,
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/imbalanced-learn-0.13.0-py313haa95532_0.conda",
+  "version": "0.13.0"
+}
